@@ -1,0 +1,21 @@
+.layout-filme{
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+layout-cabecalho{
+    width: 100%;
+    height: 70px;
+    background-color: #B3B3B3;
+    position: static;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+
+.container--cabecalho{
+    width: 100%;
+    margin: 0;
+  }

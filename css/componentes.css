@@ -1,0 +1,79 @@
+.capa{
+  height: 80vh;
+}
+
+.capa-img{
+  margin-top: 35px;
+  border-radius: 10%;
+}
+
+.texto{
+  height: 50vh;
+  margin-top: 85px;
+}
+
+.texto-titulo{
+  font-family: "Bebas-Neue", sans-serif;
+  color: crimson;
+}
+
+.texto-sinopse{
+  font-family: "Open Sans", sans-serif;
+  margin-top: 30px;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.layout-filme{
+  background-image: url("/assets/img/Design\ sem\ nome\ \(1\).png");
+  background-repeat: no-repeat;
+  background-size: 1100px 575px;
+
+}
+
+.layout-sinopse{
+  border-bottom: 1px solid #fff;
+}
+
+.layout-info{
+  height: 10vh;
+  color: #fff;
+}
+.info__style{
+  display: inline-block;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5rem;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+.trailer{
+  display: inline-block;
+  margin-top: 10px;
+  height: 50px;
+  width: 100px;
+  border: none;
+  background-color: crimson;
+  color: #fff;
+  font-size: 1.3rem;
+}
+
+
+
+.trailer:hover{
+  color: crimson;
+}
+
+.logo{
+  height: 60px;
+  background-color: green;
+  margin: 0;
+  padding: 0;
+}
+
+.menu{
+  margin: 0;
+  padding: 0;
+  height: 60px;
+  background-color: black;
+}
