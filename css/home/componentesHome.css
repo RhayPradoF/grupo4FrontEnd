@@ -1,0 +1,189 @@
+/* CABEÇALHO */
+
+.logotipo {
+  margin-left: 10%;
+}
+
+.menu {
+  list-style: none;
+  margin-right: 10%;
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+
+.menu__item {
+  display: inline-block;
+  margin-right: 50px;
+  text-decoration: none;
+  color: #000;
+}
+
+.menu__item:last-child {
+  margin-right: 0;
+}
+
+.menu__item:hover {
+  text-decoration: underline;
+  color: #311228;
+}
+/* FIM CABEÇALHO */
+
+
+/* CARROSEL */
+.texte {
+  display: flex;
+  justify-content: center;
+}
+
+.card-carrosel {
+  background-color: #000000b4;
+  border-radius: 50px;
+  height: 150px;
+  font-family: "Bebas Neue", sans-serif;
+  padding: 10px;
+}
+
+.carrosel-seta {
+  background-color: #000000;
+  border-radius: 50px;
+}
+
+.card-carrosel__texto {
+  font-size: 45px;
+  margin: 0;
+}
+
+.btn__carrosel {
+  padding: 10px 50px;
+  border-radius: 15px;
+  border: none;
+  background-color: #bd1a30;
+  color: white;
+  font-size: 25px;
+}
+
+.btn__carrosel:hover {
+  background-color: #fff;
+  color: #000;
+}
+/* FIM CARROSEL */
+
+/* BANNER */
+.banner-texto{
+    height: 400px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+    
+}
+
+.banner__paragrafo{
+
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.banner-img{
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+/* FIM BANNER */
+
+.planos__h1{
+  color: #fff;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 50px;
+  margin-bottom: 40px;
+}
+
+.planos-card{
+  padding: 10px;
+  height: 400px;
+}
+
+.planos__card{
+  padding: 10px;
+  height: 100%;
+  background-color: #B3B3B3;
+  border-radius: 30px;
+}
+
+.planos__card:last-child{
+  margin-right: 0px;
+}
+
+.planos__titulo{
+  text-align: center;
+  background-color: #311228;
+  color: #fff;
+  border-radius: 20px;
+  padding: 10px 0;
+}
+
+.planos__h2{
+  font-size: 35px;
+  font-family: "Bebas Neue", sans-serif;
+  margin-bottom: 0;
+}
+
+.planos__lista{
+  margin-top: 15px;
+  text-align: left;
+  font-size: 25px;
+  font-weight: 600;
+  
+}
+
+.planos__preco{
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 35px;
+  text-align: left;
+  padding-left: 50px;
+  margin-top: 30px;
+ 
+}
+
+.planos__btn{
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 30px;
+  border: none;
+  background-color: #bd1a30;
+  color: #fff;
+  border-radius: 40px;
+  padding: 10px 50px;
+  margin-top: 30px;
+}
+
+.planos__btn:hover{
+  background-color: #272727;
+  
+}
+
+
+
+
+/* RODAPE */
+.rodape-icons {
+  height: 60px;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.rodape__icons {
+  list-style: none;
+}
+
+.icons {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.rodape__copyright {
+  height: 40px;
+  text-align: center;
+  padding: 9px 0;
+}
+/* FIM RODAPE */
