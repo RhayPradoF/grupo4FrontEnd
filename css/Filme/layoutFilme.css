@@ -31,19 +31,25 @@
   height: 70px;
   box-sizing: border-box;
   display: flex;
-  align-items:end;
+  align-items: end;
   justify-content: end;
 }
 /* FIM CABEÇALHO */
 
-
-
-
 /* RODAPE */
-.layout-rodape{
-    height: 100px;
-    background-color: #311228;
-    color: #fff;
-    font-family: "Open Sans", sans-serif;
+.layout-rodape {
+  height: 100px;
+  background-color: #311228;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
 }
 /* FIM RODAPE */
+
+/* LAYOUT FILME */
+  .layout-filme {
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+  align-items: center;
+}
+/* FIM DO LAYOUT FILME */
