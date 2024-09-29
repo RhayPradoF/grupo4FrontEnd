@@ -1,0 +1,57 @@
+/* CABEÇALHO */
+
+.logotipo{
+    margin-left: 10%;
+}
+
+.menu{
+    list-style: none;
+    margin-right: 10%;
+    font-size: 2rem;
+}
+
+.menu__item{
+    display: inline-block;
+    margin-right: 50px;
+    text-decoration: none;
+    color: #000;
+}
+
+.menu__item:last-child{
+    margin-right: 0;
+}
+
+.menu__item:hover{
+    text-decoration: underline;
+    color: #311228;
+}
+/* FIM CABEÇALHO */
+
+
+
+
+
+/* RODAPE */
+.rodape-icons{
+    height: 60px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+
+.rodape__icons{
+    list-style: none;
+}
+
+.icons{
+    display: inline-block;
+    margin-right: 30px;
+}
+
+
+.rodape__copyright{
+    height: 40px;
+    text-align: center;
+    padding: 9px 0;
+}
+/* FIM RODAPE */
