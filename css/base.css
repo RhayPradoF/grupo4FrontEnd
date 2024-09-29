@@ -10,11 +10,10 @@ body {
 
 .viewport {
   /* Caso queira ver o tamanho do viewport */
-  border-left: 1px solid #ddd;
-  border-right: 1px solid #ddd;
+  /* border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd; */
 
   width: 100%;
 
   box-sizing: border-box;
-  
 }
