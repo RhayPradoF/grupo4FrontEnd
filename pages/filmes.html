@@ -66,42 +66,43 @@
       <!-- FIM CABEÇALHO -->
       <main class="layout-filme">
         <div class="container">
-          <div class="row" id="incio">
-            <div class="col-md-12 col-lg-4 capa">
-              <img src="../assets/img/Duna2Corpo.webp" alt="" class="capa-img" />
+
+     
+
+          <div class="row">
+            <div class="col-lg-4 capa">
+              <img src="" alt="" class="capa-img" id="imgCapa" />
+
             </div>
             <div class="col-md-12 col-lg-8 texto">
               <div class="layout-sinopse">
-                <h1 class="texto-titulo">Duna: Parte Dois (2024)</h1>
-                <p class="texto-sinopse">
-                  A jornada de Paul Atreides continua. Ele está determinado a
-                  buscar vingança contra aqueles que destruíram sua família e
-                  seu lar. Com a ajuda de Chani e dos Fremen, ele embarca em uma
-                  jornada espiritual, mística e marcial. Se torna Muad'Dib, o
-                  líder messiânico dos Fremen, enquanto luta para evitar um
-                  futuro sombrio que ele testemunhou em visões.
+                <h1 class="texto-titulo" id="titulo"></h1>
+                <p class="texto-sinopse" id="sinopse">
+                 
                 </p>
               </div>
               <div class="layout-info">
                 <div class="container">
-                  <div class="row info">
-                    <div class="col-md-3 col-lg-3">
-                      <h4 class="info__style">Avaliação 9.5</h4>
+
+                  <div class="row">
+                    <div class="col-lg-3">
+                      <h4 class="info__style" id="avaliacao"></h4>
                     </div>
-                    <div class="col-md-3 col-lg-3">
-                      <h4 class="info__style">Duração 2h 30min</h4>
+                    <div class="col-lg-3">
+                      <h4 class="info__style" id="duracao"></h4>
                     </div>
-                    <div class="col-md-3 col-lg-3">
-                      <h4 class="info__style">Categoria Ficção</h4>
+                    <div class="col-lg-3">
+                      <h4 class="info__style" id="categoria"></h4>
                     </div>
-                  </div>
-                  <div class="col-md-12 col-lg-12">
-                    <button
-                      class="trailer"
-                      onclick="window.location.href='https://www.youtube.com/watch?v=QqmbrvluQRA&pp=ygUOZHVuYSAyIHRyYWlsZXI%3D'"
-                    >
-                      assista ao trailer
-                    </button>
+                    <div class="col-lg-3">
+                      <button
+                        class="trailer"
+                        onclick="assista()"
+                      >
+                        assista ao trailer
+                      </button>
+                    </div>
+
                   </div>
                 </div>
               </div>
@@ -122,8 +123,13 @@
         </div>
       </footer>
     </div>
+
     <script src="./js/script.js"></script>
     <script src="./js/dados.js"></script>
     <script src="../js/hamburguerMenu.js"></script>
+
+
+ 
+
   </body>
 </html>
