@@ -36,7 +36,7 @@
   width: 25px;
   height: 30px;
   background: none;
-  background-image: url('/assets/img/hamburguer.png');
+  background-image: url('../../assets/img/hamburguer.png');
   outline: none;
   border: 0;
   float: right;
@@ -58,6 +58,7 @@
     background-color: #2727278c;
     margin-right: 0;
     padding: 10px 20px;
+    display: none;
     
   }
 
