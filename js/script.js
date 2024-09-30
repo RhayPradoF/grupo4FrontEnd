@@ -1,32 +1,42 @@
+let imgCapa = document.getElementById('imgCapa');
+let titulo = document.getElementById('titulo');
+let sinopse = document.getElementById('sinopse');
+let avaliacao = document.getElementById('avaliacao');
+let duracao = document.getElementById('duracao');
+let categoria = document.getElementById('categoria');
+
 
 
 function criarFilme(id){
-    const filme = filmes.filter(filme => filme.idFilme == id);
-    const inicio = document.getElementById('inicio');
 
-    const divCol = document.createElement('div');
-    divCol.className = 'col-lg-4 capa';
+    var filme = filmes.filter(filme => filme.idFilme == id)[0];   
     
-    const imgCapa = document.createElement('img');
-    imgCapa.className = 'capa-img';
-    imgCapa.src = filme.img;
+
+    sessionStorage.setItem('imgCapa', filme.img);
+    sessionStorage.setItem('titulo', filme.titulo);
+    sessionStorage.setItem('sinopse', filme.sinopse);
+    sessionStorage.setItem('avaliacao', filme.avaliacao);
+    sessionStorage.setItem('duracao', filme.duracao);
+    sessionStorage.setItem('categoria', filme.categoria);
     
-    inicio.appendChild(divCol);
-    divCol.appendChild(imgCapa);
-
-
-    window.location.href = '../pages/filmes.html';
+    
+    window.location.href = 'D:/serratec/front/serraflix/grupo4FrontEnd/pages/filmes.html';
 
 }
 
 
+if (window.location.pathname.endsWith('filmes.html')) {
+    window.onload = function() {
+        imgCapa.src = sessionStorage.getItem('imgCapa');
+        titulo.textContent = sessionStorage.getItem('titulo');
+        sinopse.textContent = sessionStorage.getItem('sinopse');
+        avaliacao.textContent = sessionStorage.getItem('avaliacao');
+        duracao.textContent = sessionStorage.getItem('duracao');
+        categoria.textContent = sessionStorage.getItem('categoria');
+    }
+}
 
 
-// const novoPoster = document.createElement('div.col-lg-4.capa');
-// novoPoster.innerHTML = `
-// <img src="/assets/img/Duna2Corpo.webp" alt=" class="capa-img"/>`
-
-// const novoTexto = document.createElement('div.col-lg-8.texto');
-// novoTexto.innerHTML = `
-
-// `
+function assista(){
+    window.location.href = filme.linkTrailer;
+}
