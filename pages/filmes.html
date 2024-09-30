@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>filmio</title>
+    <link rel="stylesheet" href="../css/bootstrap-grid.min.css" />
+    <link rel="stylesheet" href="../css/base.css" />
+    <link rel="stylesheet" href="../css/Filme/layoutFilme.css" />
+    <link rel="stylesheet" href="../css/Filme/componentesFilme.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com/" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com/" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="viewport">
+        <header class="layout-cabecalho">
+            <div class="container container--cabecalho">
+              <div class="row">
+                <div class="col-lg-3 layout-logo">
+                  <img
+                    class="logotipo"
+                    src="../assets/img/filmioSemFundo.png"
+                    alt="logo filmio"
+                    width="110px"
+                  />
+                </div>
+                <div class="col-lg-9 layout-menu">
+                  <ul class="menu">
+                    <li class="menu__item">
+                      <a class="menu__item" href="../index.html">Home</a>
+                    </li>
+                    <li class="menu__item">
+                      <a class="menu__item" href="../pages/catalogo.html"
+                        >Catalogo</a
+                      >
+                    </li>
+                    <li class="menu__item">
+                      <a class="menu__item" href="../pages/sobre.html">Sobre Nós</a>
+                    </li>
+                    <li class="menu__item">
+                      <a class="menu__item" href="../pages/contatos.html">Contatos</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </header>
+      <main class="layout-filme">
+        <div class="container">
+          <div class="row" id="incio">
+            <div class="col-lg-4 capa">
+              <img src="../assets/img/Duna2Corpo.webp" alt="" class="capa-img" />
+            </div>
+            <div class="col-lg-8 texto">
+              <div class="layout-sinopse">
+                <h1 class="texto-titulo">Duna: Parte Dois (2024)</h1>
+                <p class="texto-sinopse">
+                  A jornada de Paul Atreides continua. Ele está determinado a
+                  buscar vingança contra aqueles que destruíram sua família e
+                  seu lar. Com a ajuda de Chani e dos Fremen, ele embarca em uma
+                  jornada espiritual, mística e marcial. Se torna Muad'Dib, o
+                  líder messiânico dos Fremen, enquanto luta para evitar um
+                  futuro sombrio que ele testemunhou em visões.
+                </p>
+              </div>
+              <div class="layout-info">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-lg-3">
+                      <h4 class="info__style">Avaliação 9.5</h4>
+                    </div>
+                    <div class="col-lg-3">
+                      <h4 class="info__style">Duração 2h 30min</h4>
+                    </div>
+                    <div class="col-lg-3">
+                      <h4 class="info__style">Categoria Ficção</h4>
+                    </div>
+                    <div class="col-lg-3">
+                      <button
+                        class="trailer"
+                        onclick="window.location.href='https://www.youtube.com/watch?v=QqmbrvluQRA&pp=ygUOZHVuYSAyIHRyYWlsZXI%3D'"
+                      >
+                        assista ao trailer
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer class="layout-rodape">
+        <div class="rodape-icons">
+          <ul class="rodape__icons">
+            <li class="icons"><a href="https://www.instagram.com/serratecoficial/"><img src="../assets/img/instagramIcon.png" alt="Instagram" height="40px"></a></li>
+            <li class="icons"><a href="https://www.facebook.com/serratecoficial"><img src="../assets/img/FacebookIcon.png" alt="Facebook" height="40px"></a></li>
+            <li class="icons"><a href="https://www.linkedin.com/company/serratecoficial/posts/?feedView=all"><img src="../assets/img/LinkedInIcon.png" alt="Linkedin" height="40px"></a></li>
+          </ul>
+        </div>
+        <div class="rodape__copyright">
+          <p>&copy;2024 Todos os direitos reservados Filmio LTDA</p>
+        </div>
+      </footer>
+    </div>
+    <script src="./js/script.js"></script>
+    <script src="./js/dados.js"></script>
+  </body>
+</html>

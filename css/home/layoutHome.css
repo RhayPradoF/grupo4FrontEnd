@@ -1,0 +1,82 @@
+/* CABEÇALHO */
+.layout-cabecalho {
+  width: 100%;
+  height: 70px;
+  background-color: #b3b3b3;
+  position: static;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.container--cabecalho {
+  width: 100%;
+  margin: 0;
+}
+
+.layout-logo {
+  height: 70px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  box-sizing: border-box;
+}
+
+.layout-menu {
+  margin: 0;
+  padding: 0;
+  height: 70px;
+  box-sizing: border-box;
+  display: flex;
+  align-items:end;
+  justify-content: end;
+}
+
+@media(max-width:1040px){
+  .layout-menu {
+    margin: 0;
+    padding: 25px;
+    box-sizing: border-box;
+    display: block;
+    position: relative;
+  }
+}
+/* FIM CABEÇALHO */
+
+
+
+.layout-carrosel{
+    object-fit: cover;
+    height: 600px;
+}
+
+.layout-banner{
+    width: 100%;
+    background-color: #1C1B1B;
+    font-family: "Open Sans", sans-serif;
+    color: #fff;
+    
+}
+
+.layout-planos{
+  width: 100%;
+  background-color: #020202;
+  font-family: "Open Sans", sans-serif;
+  color: #272727;
+  text-align: center;
+  padding: 20px 20px;
+  
+}
+
+
+/* RODAPE */
+.layout-rodape{
+    height: 100px;
+    background-color: #311228;
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+}
+/* FIM RODAPE */

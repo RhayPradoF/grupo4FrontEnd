@@ -1,0 +1,120 @@
+/* CABEÇALHO */
+
+.logotipo {
+  margin-left: 10%;
+}
+
+.menu {
+  list-style: none;
+  margin-right: 10%;
+  font-size: 2rem;
+}
+
+.menu__item {
+  display: inline-block;
+  margin-right: 50px;
+  text-decoration: none;
+  color: #000;
+}
+
+.menu__item:last-child {
+  margin-right: 0;
+}
+
+.menu__item:hover {
+  text-decoration: underline;
+  color: #311228;
+}
+/* FIM CABEÇALHO */
+
+/* RODAPE */
+.rodape-icons {
+  height: 60px;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.rodape__icons {
+  list-style: none;
+}
+
+.icons {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.rodape__copyright {
+  height: 40px;
+  text-align: center;
+  padding: 9px 0;
+}
+/* FIM RODAPE */
+
+/* COMPONENTES FILME */
+.capa {
+  margin-top: 60px;
+  height: 80vh;
+}
+
+.capa-img {
+  margin-top: 35px;
+  border-radius: 10%;
+}
+
+.texto {
+  height: 50vh;
+  margin-top: 120px;
+}
+
+.texto-titulo {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 2rem;
+  color: crimson;
+}
+
+.texto-sinopse {
+  font-family: "Open Sans", sans-serif;
+  margin-top: 30px;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.layout-filme {
+background: linear-gradient(#1c1b1b, #1e0b19);
+}
+
+.layout-sinopse {
+  border-bottom: 1px solid #fff;
+}
+
+.layout-info {
+  height: 10vh;
+  color: #fff;
+}
+.info__style {
+  text-align: center;
+  display: inline-block;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5rem;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+.trailer {
+  display: inline-block;
+  margin-top: 10px;
+  height: 50px;
+  width: 100px;
+  border: none;
+  border-radius: 10px;
+  background-color: crimson;
+  color: #fff;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.trailer:hover {
+  color: #fff;
+  background-color: #311228;
+}
+/*FIM*/

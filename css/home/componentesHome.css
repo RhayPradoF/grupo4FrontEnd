@@ -1,0 +1,286 @@
+/* CABEÇALHO */
+
+.logotipo {
+  margin-left: 10%;
+}
+
+.menu {
+  list-style: none;
+  margin-right: 10%;
+  font-size: 2rem;
+}
+
+.menu__lista{
+  margin-bottom: 0;
+
+}
+
+.menu__item {
+  display: inline-block;
+  margin-right: 50px;
+  text-decoration: none;
+  color: #000;
+}
+
+.menu__item:last-child {
+  margin-right: 0;
+}
+
+.menu__item:hover {
+  text-decoration: underline;
+  color: #311228;
+}
+
+
+.btn--chaveador{
+  width: 25px;
+  height: 30px;
+  background: none;
+  background-image: url('/assets/img/hamburguer.png');
+  outline: none;
+  border: 0;
+  float: right;
+  margin-right: 50px;
+}
+
+@media(min-width: 1041px){
+  .btn--chaveador{
+    display: none;
+  }
+}
+
+@media(max-width: 1040px){
+  .menu{
+    position: absolute;
+    z-index: 10;
+    right: 20px;
+    top: 70px;
+    background-color: #2727278c;
+    margin-right: 0;
+    padding: 10px 20px;
+    
+  }
+
+  .menu__lista{
+    margin-bottom: 0;
+    padding-left: 0;
+    text-align: center;
+    
+  }
+  
+  .menu__item{
+    margin: 0;
+    padding: 0;
+    display: block; 
+    color: #fff;   
+  }
+
+  .menu__item:hover{
+    text-decoration: underline;
+    color: #fff;
+  }
+
+  .logotipo {
+    margin-left: 30%;
+  }
+}
+
+
+/* FIM CABEÇALHO */
+
+
+/* CARROSEL */
+.texte {
+  display: flex;
+  justify-content: center;
+}
+
+.card-carrosel {
+  background-color: #000000b4;
+  border-radius: 50px;
+  height: 150px;
+  font-family: "Bebas Neue", sans-serif;
+  padding: 10px;
+}
+
+.carrosel-seta {
+  background-color: #000000;
+  border-radius: 50px;
+}
+
+.card-carrosel__texto {
+  font-size: 3vw;
+  margin: 0;
+}
+
+@media(max-width:1300px){
+  .card-carrosel__texto {
+    margin: 0;
+    margin-bottom: 15px;
+  }
+}
+
+.btn__carrosel {
+  padding: 10px 50px;
+  border-radius: 15px;
+  border: none;
+  background-color: #bd1a30;
+  color: white;
+  font-size: 25px;
+}
+
+.btn__carrosel:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+/* FIM CARROSEL */
+
+/* BANNER */
+.banner-texto{
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+    margin: 50px 0;
+    
+}
+
+.banner__paragrafo{
+
+    font-size: 2em;
+    font-weight: 600;
+}
+
+@media (max-width: 1000px) {
+  .banner-texto{
+    text-align: center;    
+}
+ 
+ 
+  .banner__paragrafo{
+
+    font-size: 1.5em;
+}
+
+.banner-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  
+}
+
+}
+
+.banner-img{
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+/* FIM BANNER */
+
+.planos__h1{
+  color: #fff;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 50px;
+  margin-bottom: 40px;
+}
+
+.planos-card{
+  padding: 10px;
+}
+
+.planos__card{
+  padding: 10px;
+  height: 100%;
+  background-color: #B3B3B3;
+  border-radius: 30px;
+}
+
+.planos__card:last-child{
+  margin-right: 0px;
+}
+
+.planos__titulo{
+  text-align: center;
+  background-color: #311228;
+  color: #fff;
+  border-radius: 20px;
+  padding: 10px 0;
+}
+
+.planos__h2{
+  font-size: 35px;
+  font-family: "Bebas Neue", sans-serif;
+  margin-bottom: 0;
+}
+
+.planos__lista{
+  margin-top: 15px;
+  text-align: left;
+  font-size: 25px;
+  font-weight: 600;
+  
+}
+
+.planos__preco{
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 35px;
+  text-align: left;
+  padding-left: 50px;
+  margin-top: 30px;
+ 
+}
+
+.planos__btn{
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 30px;
+  border: none;
+  background-color: #bd1a30;
+  color: #fff;
+  border-radius: 40px;
+  padding: 10px 50px;
+  margin-top: 30px;
+}
+
+.planos__btn:hover{
+  background-color: #272727;
+  
+}
+
+@media(max-width:991px){
+  .planos__lista{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    list-style: none;
+    padding-left: 0;
+  }
+}
+
+
+/* RODAPE */
+.rodape-icons {
+  height: 60px;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.rodape__icons {
+  list-style: none;
+}
+
+.icons {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.rodape__copyright {
+  height: 40px;
+  text-align: center;
+  padding: 9px 0;
+}
+/* FIM RODAPE */
