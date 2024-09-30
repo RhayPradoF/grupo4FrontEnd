@@ -31,10 +31,43 @@
   height: 70px;
   box-sizing: border-box;
   display: flex;
-  align-items: end;
+  align-items:end;
   justify-content: end;
 }
+
+@media(max-width:1040px){
+  .layout-menu {
+    margin: 0;
+    padding: 25px;
+    box-sizing: border-box;
+    display: block;
+    position: relative;
+  }
+}
 /* FIM CABEÇALHO */
+
+
+
+/* LAYOUT FILME */
+  .layout-filme {
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+  align-items: center;
+}
+
+.layout-filme {
+  background: linear-gradient(#1c1b1b, #1e0b19);
+}
+
+
+.layout-info {
+  padding: 0 20px;
+  margin-top: 20px;
+  color: #fff;
+}
+
+/* FIM DO LAYOUT FILME */
 
 /* RODAPE */
 .layout-rodape {
@@ -44,12 +77,3 @@
   font-family: "Open Sans", sans-serif;
 }
 /* FIM RODAPE */
-
-/* LAYOUT FILME */
-  .layout-filme {
-  width: 100%;
-  height: 100vh;
-  box-sizing: border-box;
-  align-items: center;
-}
-/* FIM DO LAYOUT FILME */

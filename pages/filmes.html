@@ -23,45 +23,54 @@
   </head>
   <body>
     <div class="viewport">
-        <header class="layout-cabecalho">
-            <div class="container container--cabecalho">
-              <div class="row">
-                <div class="col-lg-3 layout-logo">
-                  <img
-                    class="logotipo"
-                    src="../assets/img/filmioSemFundo.png"
-                    alt="logo filmio"
-                    width="110px"
-                  />
-                </div>
-                <div class="col-lg-9 layout-menu">
-                  <ul class="menu">
-                    <li class="menu__item">
-                      <a class="menu__item" href="../index.html">Home</a>
-                    </li>
-                    <li class="menu__item">
-                      <a class="menu__item" href="../pages/catalogo.html"
-                        >Catalogo</a
-                      >
-                    </li>
-                    <li class="menu__item">
-                      <a class="menu__item" href="../pages/sobre.html">Sobre Nós</a>
-                    </li>
-                    <li class="menu__item">
-                      <a class="menu__item" href="../pages/contatos.html">Contatos</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
+         <!-- CABEÇALHO -->
+      <header class="layout-cabecalho">
+        <div class="container container--cabecalho">
+          <div class="row">
+            <div class="col-lg-3 col-md-4 col-sm-4 layout-logo">
+              <img
+                class="logotipo"
+                src="../assets/img/filmioSemFundo.png"
+                alt="logo filmio"
+                width="110px"
+              />
             </div>
-          </header>
+            <div class="col-lg-9 col-md-8 col-sm-8 layout-menu">
+              <div class="menu" id="menu">
+                <ul class="menu__lista">
+                  <li class="menu__item">
+                    <a class="menu__item" href="./index.html">Home</a>
+                  </li>
+                  <li class="menu__item">
+                    <a class="menu__item" href="./pages/catalogo.html"
+                      >Catalogo</a
+                    >
+                  </li>
+                  <li class="menu__item">
+                    <a class="menu__item" href="./pages/sobre.html"
+                      >Sobre Nós</a
+                    >
+                  </li>
+                  <li class="menu__item">
+                    <a class="menu__item" href="./pages/contatos.html"
+                      >Contatos</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <button class="btn--chaveador" onclick="clickMenu()"></button>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- FIM CABEÇALHO -->
       <main class="layout-filme">
         <div class="container">
           <div class="row" id="incio">
-            <div class="col-lg-4 capa">
+            <div class="col-md-12 col-lg-4 capa">
               <img src="../assets/img/Duna2Corpo.webp" alt="" class="capa-img" />
             </div>
-            <div class="col-lg-8 texto">
+            <div class="col-md-12 col-lg-8 texto">
               <div class="layout-sinopse">
                 <h1 class="texto-titulo">Duna: Parte Dois (2024)</h1>
                 <p class="texto-sinopse">
@@ -75,24 +84,24 @@
               </div>
               <div class="layout-info">
                 <div class="container">
-                  <div class="row">
-                    <div class="col-lg-3">
+                  <div class="row info">
+                    <div class="col-md-3 col-lg-3">
                       <h4 class="info__style">Avaliação 9.5</h4>
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-md-3 col-lg-3">
                       <h4 class="info__style">Duração 2h 30min</h4>
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-md-3 col-lg-3">
                       <h4 class="info__style">Categoria Ficção</h4>
                     </div>
-                    <div class="col-lg-3">
-                      <button
-                        class="trailer"
-                        onclick="window.location.href='https://www.youtube.com/watch?v=QqmbrvluQRA&pp=ygUOZHVuYSAyIHRyYWlsZXI%3D'"
-                      >
-                        assista ao trailer
-                      </button>
-                    </div>
+                  </div>
+                  <div class="col-md-12 col-lg-12">
+                    <button
+                      class="trailer"
+                      onclick="window.location.href='https://www.youtube.com/watch?v=QqmbrvluQRA&pp=ygUOZHVuYSAyIHRyYWlsZXI%3D'"
+                    >
+                      assista ao trailer
+                    </button>
                   </div>
                 </div>
               </div>
@@ -115,5 +124,6 @@
     </div>
     <script src="./js/script.js"></script>
     <script src="./js/dados.js"></script>
+    <script src="../js/hamburguerMenu.js"></script>
   </body>
 </html>
