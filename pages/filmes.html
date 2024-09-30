@@ -23,7 +23,7 @@
   </head>
   <body>
     <div class="viewport">
-         <!-- CABEÇALHO -->
+      <!-- CABEÇALHO -->
       <header class="layout-cabecalho">
         <div class="container container--cabecalho">
           <div class="row">
@@ -39,20 +39,20 @@
               <div class="menu" id="menu">
                 <ul class="menu__lista">
                   <li class="menu__item">
-                    <a class="menu__item" href="./index.html">Home</a>
+                    <a class="menu__item" href="../index.html">Home</a>
                   </li>
                   <li class="menu__item">
-                    <a class="menu__item" href="./pages/catalogo.html"
+                    <a class="menu__item" href="./catalogo.html"
                       >Catalogo</a
                     >
                   </li>
                   <li class="menu__item">
-                    <a class="menu__item" href="./pages/sobre.html"
+                    <a class="menu__item" href="./sobre.html"
                       >Sobre Nós</a
                     >
                   </li>
                   <li class="menu__item">
-                    <a class="menu__item" href="./pages/contatos.html"
+                    <a class="menu__item" href="./contatos.html"
                       >Contatos</a
                     >
                   </li>
@@ -64,58 +64,74 @@
         </div>
       </header>
       <!-- FIM CABEÇALHO -->
+
+       <!-- INICIO FILME -->
       <main class="layout-filme">
         <div class="container">
-
-     
-
           <div class="row">
-            <div class="col-lg-4 capa">
-              <img src="" alt="" class="capa-img" id="imgCapa" />
-
+            <div class="col-md-12 col-lg-4 capa">
+              <img src="" alt="" class="capa-img" id="imgCapa" width="250px" />
             </div>
             <div class="col-md-12 col-lg-8 texto">
               <div class="layout-sinopse">
                 <h1 class="texto-titulo" id="titulo"></h1>
-                <p class="texto-sinopse" id="sinopse">
-                 
-                </p>
+                <p class="texto-sinopse" id="sinopse"></p>
               </div>
               <div class="layout-info">
                 <div class="container">
-
                   <div class="row">
-                    <div class="col-lg-3">
+                    <div class="col-md-3  col-lg-3">
                       <h4 class="info__style" id="avaliacao"></h4>
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-md-3  col-lg-3">
                       <h4 class="info__style" id="duracao"></h4>
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-md-3  col-lg-3">
                       <h4 class="info__style" id="categoria"></h4>
                     </div>
-                    <div class="col-lg-3">
-                      <button
-                        class="trailer"
-                        onclick="assista()"
-                      >
-                        assista ao trailer
-                      </button>
-                    </div>
-
                   </div>
                 </div>
               </div>
             </div>
           </div>
+          <div class="col-md-12 col-lg-12">
+            <button class="trailer" onclick="assista()">
+              assista ao trailer
+            </button>
+          </div>
         </div>
       </main>
+      <!-- FIM FILME --> 
+
+      <!-- INICIO RODAPE -->
       <footer class="layout-rodape">
         <div class="rodape-icons">
           <ul class="rodape__icons">
-            <li class="icons"><a href="https://www.instagram.com/serratecoficial/"><img src="../assets/img/instagramIcon.png" alt="Instagram" height="40px"></a></li>
-            <li class="icons"><a href="https://www.facebook.com/serratecoficial"><img src="../assets/img/FacebookIcon.png" alt="Facebook" height="40px"></a></li>
-            <li class="icons"><a href="https://www.linkedin.com/company/serratecoficial/posts/?feedView=all"><img src="../assets/img/LinkedInIcon.png" alt="Linkedin" height="40px"></a></li>
+            <li class="icons">
+              <a href="https://www.instagram.com/serratecoficial/"
+                ><img
+                  src="../assets/img/instagramIcon.png"
+                  alt="Instagram"
+                  height="40px"
+              /></a>
+            </li>
+            <li class="icons">
+              <a href="https://www.facebook.com/serratecoficial"
+                ><img
+                  src="../assets/img/FacebookIcon.png"
+                  alt="Facebook"
+                  height="40px"
+              /></a>
+            </li>
+            <li class="icons">
+              <a
+                href="https://www.linkedin.com/company/serratecoficial/posts/?feedView=all"
+                ><img
+                  src="../assets/img/LinkedInIcon.png"
+                  alt="Linkedin"
+                  height="40px"
+              /></a>
+            </li>
           </ul>
         </div>
         <div class="rodape__copyright">
@@ -123,13 +139,10 @@
         </div>
       </footer>
     </div>
+    <!-- FIM RODAPE -->
 
-    <script src="./js/script.js"></script>
-    <script src="./js/dados.js"></script>
+    <script src="../js/script.js"></script>
+    <script src="../js/dados.js"></script>
     <script src="../js/hamburguerMenu.js"></script>
-
-
- 
-
   </body>
 </html>
