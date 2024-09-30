@@ -1,10 +1,42 @@
-function criarFilme(){
-    const novoPoster = document.createElement('div.col-lg-4.capa');
-    novoPoster.innerHTML = `
-    <img src="/assets/img/Duna2Corpo.webp" alt=" class="capa-img"/>`
+let imgCapa = document.getElementById('imgCapa');
+let titulo = document.getElementById('titulo');
+let sinopse = document.getElementById('sinopse');
+let avaliacao = document.getElementById('avaliacao');
+let duracao = document.getElementById('duracao');
+let categoria = document.getElementById('categoria');
 
-    const novoTexto = document.createElement('div.col-lg-8.texto');
-    novoTexto.innerHTML = `
+
+
+function criarFilme(id){
+
+    var filme = filmes.filter(filme => filme.idFilme == id)[0];   
     
-    `
+
+    sessionStorage.setItem('imgCapa', filme.img);
+    sessionStorage.setItem('titulo', filme.titulo);
+    sessionStorage.setItem('sinopse', filme.sinopse);
+    sessionStorage.setItem('avaliacao', filme.avaliacao);
+    sessionStorage.setItem('duracao', filme.duracao);
+    sessionStorage.setItem('categoria', filme.categoria);
+    
+    
+    window.location.href = 'D:/serratec/front/serraflix/grupo4FrontEnd/pages/filmes.html';
+
+}
+
+
+if (window.location.pathname.endsWith('filmes.html')) {
+    window.onload = function() {
+        imgCapa.src = sessionStorage.getItem('imgCapa');
+        titulo.textContent = sessionStorage.getItem('titulo');
+        sinopse.textContent = sessionStorage.getItem('sinopse');
+        avaliacao.textContent = sessionStorage.getItem('avaliacao');
+        duracao.textContent = sessionStorage.getItem('duracao');
+        categoria.textContent = sessionStorage.getItem('categoria');
+    }
+}
+
+
+function assista(){
+    window.location.href = filme.linkTrailer;
 }

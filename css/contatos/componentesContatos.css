@@ -1,0 +1,258 @@
+/* CABEÇALHO */
+
+.logotipo {
+  margin-left: 10%;
+}
+
+.menu {
+  list-style: none;
+  margin-right: 10%;
+  font-size: 2rem;
+}
+
+.menu__lista{
+  margin-bottom: 0;
+
+}
+
+.menu__item {
+  display: inline-block;
+  margin-right: 50px;
+  text-decoration: none;
+  color: #000;
+}
+
+.menu__item:last-child {
+  margin-right: 0;
+}
+
+.menu__item:hover {
+  text-decoration: underline;
+  color: #311228;
+}
+
+
+.btn--chaveador{
+  width: 25px;
+  height: 30px;
+  background: none;
+  background-image: url('../../assets/img/hamburguer.png');
+  outline: none;
+  border: 0;
+  float: right;
+  margin-right: 50px;
+}
+
+@media(min-width: 1041px){
+  .btn--chaveador{
+    display: none;
+  }
+}
+
+@media(max-width: 1040px){
+  .menu{
+    position: absolute;
+    z-index: 10;
+    right: 20px;
+    top: 70px;
+    background-color: #2727278c;
+    margin-right: 0;
+    padding: 10px 20px;
+    display: none;
+    
+  }
+
+  .menu__lista{
+    margin-bottom: 0;
+    padding-left: 0;
+    text-align: center;
+    
+  }
+  
+  .menu__item{
+    margin: 0;
+    padding: 0;
+    display: block; 
+    color: #fff;   
+  }
+
+  .menu__item:hover{
+    text-decoration: underline;
+    color: #fff;
+  }
+
+  .logotipo {
+    margin-left: 30%;
+  }
+}
+
+
+/* FIM CABEÇALHO */
+
+.capa__titulo{
+  font-size: 90px;
+
+}
+
+.formulario__titulo{
+  width: 100%;
+  text-align: center;
+  color: #000;
+  padding-top: 50px;
+  margin-bottom: 50px;
+  
+  
+}
+.formulario__h3{
+  margin-top: 40px;
+  font-size: 40px;
+}
+
+
+.formulario__area{
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formulario__campo{
+  background-color:#311228;
+  width: 600px;
+  padding: 20px;
+  border-radius: 20px;
+
+  
+}
+
+
+.formulario__campo::placeholder{
+  font-size: 20px;
+  color: #fff;
+  
+}
+
+.formulario__campo-comentario{
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formulario__comentario{
+  resize: none;
+  width: 1270px;
+  height: 200px;
+  background-color: #311228;
+  border-radius: 20px;
+  padding: 20px;
+  
+}
+
+@media(max-width:800px){
+  .formulario__campo{
+    width: 400px;
+
+
+  }
+  .formulario__comentario{
+    width: 400px;
+  }
+
+  .formulario__h3{
+    font-size: 30px;
+  }
+}
+.formulario__comentario::placeholder{
+  font-size: 20px;
+  color: #FFF;
+}
+
+.formulario__campo-btn{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.formulario__btn{
+  padding: 10px 50px;
+  border: none;
+  font-size: 20px;
+  background-color: #b3b3b3;
+  border-radius: 30px;
+
+}
+
+.forulario__area-card{
+  display: flex;
+  justify-content: center;
+}
+
+.formulario__card{
+  position: relative;
+  background-color: #b3b3b3;
+  color: #000;
+  text-align: left;
+  padding: 20px 10px 20px 70px;
+  width: 380px;
+  height: 150px;
+  margin-bottom: 50px;
+  
+}
+
+@media(max-width:991px){
+  .formulario__card{
+    margin-bottom: 20px;
+  }
+
+}
+
+.formulario__card-h4{
+  display: inline-block;
+  margin-right: 20px;
+}
+.formulario__card-h4 > h4{
+  font-size: 50px;
+  margin-bottom: 0px;
+}
+
+.formulario__card-img{
+  position: absolute;
+  right: 50;
+  top: 20;
+
+}
+.formulario__card-paragrafo{
+  font-size: 30px;
+  margin-top: 15px;
+  
+}
+
+.paragrafo__endereço{
+  font-size: 20px;
+}
+
+/* RODAPE */
+.rodape-icons {
+  height: 60px;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.rodape__icons {
+  list-style: none;
+}
+
+.icons {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.rodape__copyright {
+  height: 40px;
+  text-align: center;
+  padding: 9px 0;
+}
+/* FIM RODAPE */

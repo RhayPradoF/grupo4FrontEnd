@@ -47,33 +47,55 @@
 /* FIM CABEÇALHO */
 
 
+.layout-capa{
 
-/* LAYOUT FILME */
-  .layout-filme {
+  font-family: "Bebas Neue", sans-serif;
+  color: white;
+  background-image: url('../../assets/img/Catalogo1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 100%;
-  box-sizing: border-box;
-  text-align: center;
+  height: 400px;
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
 
-.layout-filme {
-  background: linear-gradient(#1c1b1b, #1e0b19);
+.layout-formulario{
+
+font-family: "Bebas Neue", sans-serif;
+color: #fff;
+  width: 100%;
+  
+  background-color: #fff;
+}
+
+.layout-card{
+  width: 100%;
+  margin-top: 50px;
+  
 }
 
 
-.layout-info {
-  padding: 0 20px;
-  margin-top: 20px;
-  color: #fff;
-}
 
-/* FIM DO LAYOUT FILME */
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* RODAPE */
-.layout-rodape {
-  height: 100px;
-  background-color: #311228;
-  color: #fff;
-  font-family: "Open Sans", sans-serif;
+.layout-rodape{
+    height: 100px;
+    background-color: #311228;
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
 }
 /* FIM RODAPE */

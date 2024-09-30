@@ -8,7 +8,11 @@
   list-style: none;
   margin-right: 10%;
   font-size: 2rem;
+}
+
+.menu__lista{
   margin-bottom: 0;
+
 }
 
 .menu__item {
@@ -26,6 +30,63 @@
   text-decoration: underline;
   color: #311228;
 }
+
+
+.btn--chaveador{
+  width: 25px;
+  height: 30px;
+  background: none;
+  background-image: url('../../assets/img/hamburguer.png');
+  outline: none;
+  border: 0;
+  float: right;
+  margin-right: 50px;
+}
+
+@media(min-width: 1041px){
+  .btn--chaveador{
+    display: none;
+  }
+}
+
+@media(max-width: 1040px){
+  .menu{
+    position: absolute;
+    z-index: 10;
+    right: 20px;
+    top: 70px;
+    background-color: #2727278c;
+    margin-right: 0;
+    padding: 10px 20px;
+    display: none;
+    
+  }
+
+  .menu__lista{
+    margin-bottom: 0;
+    padding-left: 0;
+    text-align: center;
+    
+  }
+  
+  .menu__item{
+    margin: 0;
+    padding: 0;
+    display: block; 
+    color: #fff;   
+  }
+
+  .menu__item:hover{
+    text-decoration: underline;
+    color: #fff;
+  }
+
+  .logotipo {
+    margin-left: 30%;
+  }
+}
+
+
 /* FIM CABEÇALHO */
 
 
@@ -49,8 +110,15 @@
 }
 
 .card-carrosel__texto {
-  font-size: 45px;
+  font-size: 3vw;
   margin: 0;
+}
+
+@media(max-width:1300px){
+  .card-carrosel__texto {
+    margin: 0;
+    margin-bottom: 15px;
+  }
 }
 
 .btn__carrosel {
@@ -66,16 +134,17 @@
   background-color: #fff;
   color: #000;
 }
+
 /* FIM CARROSEL */
 
 /* BANNER */
 .banner-texto{
-    height: 400px;
     text-align: left;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0 50px;
+    margin: 50px 0;
     
 }
 
@@ -83,6 +152,27 @@
 
     font-size: 2em;
     font-weight: 600;
+}
+
+@media (max-width: 1000px) {
+  .banner-texto{
+    text-align: center;    
+}
+ 
+ 
+  .banner__paragrafo{
+
+    font-size: 1.5em;
+}
+
+.banner-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  
+}
+
 }
 
 .banner-img{
@@ -101,7 +191,6 @@
 
 .planos-card{
   padding: 10px;
-  height: 400px;
 }
 
 .planos__card{
@@ -162,7 +251,16 @@
   
 }
 
-
+@media(max-width:991px){
+  .planos__lista{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    list-style: none;
+    padding-left: 0;
+  }
+}
 
 
 /* RODAPE */

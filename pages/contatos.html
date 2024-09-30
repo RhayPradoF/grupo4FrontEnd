@@ -1,0 +1,233 @@
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Filmio</title>
+    <link rel="stylesheet" href="../css/bootstrap-grid.min.css" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+
+    <link rel="stylesheet" href="../css/base.css" />
+    <link rel="stylesheet" href="../css/contatos/componentesContatos.css" />
+    <link rel="stylesheet" href="../css/contatos/layoutContatos.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="viewport">
+      <!-- CABEÇALHO -->
+      <header class="layout-cabecalho">
+        <div class="container container--cabecalho">
+          <div class="row">
+            <div class="col-lg-3 col-md-4 col-sm-4 layout-logo">
+              <img
+                class="logotipo"
+                src="../assets/img/filmioSemFundo.png"
+                alt="logo filmio"
+                width="110px"
+              />
+            </div>
+            <div class="col-lg-9 col-md-8 col-sm-8 layout-menu">
+              <div class="menu" id="menu">
+                <ul class="menu__lista">
+                  <li class="menu__item">
+                    <a class="menu__item" href="./index.html">Home</a>
+                  </li>
+                  <li class="menu__item">
+                    <a class="menu__item" href="./pages/catalogo.html"
+                      >Catalogo</a
+                    >
+                  </li>
+                  <li class="menu__item">
+                    <a class="menu__item" href="./pages/sobre.html"
+                      >Sobre Nós</a
+                    >
+                  </li>
+                  <li class="menu__item">
+                    <a class="menu__item" href="./pages/contatos.html"
+                      >Contatos</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <button class="btn--chaveador" onclick="clickMenu()"></button>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- FIM CABEÇALHO -->
+      <main>
+
+        <section class="layout-capa">
+            <h1 class="capa__titulo">Contatos</h1>
+        </section>
+
+        <section class="layout-formulario">
+
+            <div class="formulario__titulo">
+                <img src="../assets/img/filmeIcon.png" alt="icone filme">
+            <h3 class="formulario__h3">
+                TEM ALGUMA DÚVIDA? NÃO ESPERE, FALE CONOSCO!
+            </h3>
+             </div>
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-xl-6 col-lg-12">
+
+                        <div class="formulario__area">
+                        <form action="">
+
+                            <input class="formulario__campo" type="text" name="name" placeholder="Nome">
+                        </form>
+                    </div>
+                    </div>
+
+                    <div class="col-xl-6 col-lg-12">
+                        <div class="formulario__area">
+                            <form action="">
+                                <input class="formulario__campo" type="email" name="email" placeholder="Email">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-xl-6 col-lg-12">
+
+                        <div class="formulario__area">
+                        <form action="">
+
+                            <input class="formulario__campo" type="text" name="telefone" placeholder="Telefone">
+                        </form>
+                    </div>
+                    </div>
+
+                    <div class="col-xl-6 col-lg-12">
+                        <div class="formulario__area">
+                            <form action="">
+                                <input class="formulario__campo" type="text" name="assunto" placeholder="Assunto">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="formulario__campo-comentario">
+                            <textarea class="formulario__comentario" name="comentarios" placeholder="Escreva um Comentário..."></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="formulario__campo-btn">
+                    <button class="formulario__btn">Enviar</button>
+                </div>
+            </div>
+
+            <section class="layout-card">
+            <div class="container">
+                <div class="row">
+                <div class="col-lg-4 forulario__area-card">
+                    <div class="formulario__card">
+                        <div class="formulario__card-h4">
+                        <h4 >Telefone</h4>
+                        </div>
+                        <div class="formulario__card-img">
+                        <img src="../assets/img/iconTelefone.png" alt="telefone">
+                        </div>
+                        <p class="formulario__card-paragrafo">(24)99211-9348</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 forulario__area-card">
+                    <div class="formulario__card">
+                        <div class="formulario__card-h4">
+                        <h4 >Endereço</h4>
+                        </div>
+                        <div class="formulario__card-img">
+                        <img src="../assets/img/iconMaps.png" alt="endereço">
+                        </div>
+                        
+                        <p class="formulario__card-paragrafo paragrafo__endereço">R.Afrânio Melo Franco,333-313-Quitandinha,Petrópolis-RJ</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 forulario__area-card">
+                    <div class="formulario__card">
+                        <div class="formulario__card-h4">
+                        <h4 >Email</h4>
+                        </div>
+                        <div class="formulario__card-img">
+                        <img src="../assets/img/iconEmail.png" alt="email">
+                        </div>
+                        
+                        <p class="formulario__card-paragrafo">serratec@gmail.com</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+
+        </section>
+        
+
+      </main>
+
+
+
+      <!-- RODAPE -->
+      <footer class="layout-rodape">
+        <div class="rodape-icons">
+          <ul class="rodape__icons">
+            <li class="icons">
+              <a href="https://www.instagram.com/serratecoficial/"
+                ><img
+                  src="../assets/img/instagramIcon.png"
+                  alt="Instagram"
+                  height="40px"
+              /></a>
+            </li>
+            <li class="icons">
+              <a href="https://www.facebook.com/serratecoficial"
+                ><img
+                  src="../assets/img/FacebookIcon.png"
+                  alt="Facebook"
+                  height="40px"
+              /></a>
+            </li>
+            <li class="icons">
+              <a
+                href="https://www.linkedin.com/company/serratecoficial/posts/?feedView=all"
+                ><img
+                  src="../assets/img/LinkedInIcon.png"
+                  alt="Linkedin"
+                  height="40px"
+              /></a>
+            </li>
+          </ul>
+        </div>
+        <div class="rodape__copyright">
+          <p>&copy;2024 Todos os direitos reservados Filmio LTDA</p>
+        </div>
+      </footer>
+      <!-- FIM RODAPE -->
+    </div>
+
+    <script src="../js/hamburguerMenu.js"></script>
+    
+  </body>
+</html>
