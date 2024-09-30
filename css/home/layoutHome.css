@@ -34,7 +34,18 @@
   align-items:end;
   justify-content: end;
 }
+
+@media(max-width:1040px){
+  .layout-menu {
+    margin: 0;
+    padding: 25px;
+    box-sizing: border-box;
+    display: block;
+    position: relative;
+  }
+}
 /* FIM CABEÇALHO */
+
 
 
 .layout-carrosel{
@@ -44,7 +55,6 @@
 
 .layout-banner{
     width: 100%;
-    height: 400px;
     background-color: #1C1B1B;
     font-family: "Open Sans", sans-serif;
     color: #fff;
@@ -53,7 +63,6 @@
 
 .layout-planos{
   width: 100%;
-  height: 600px;
   background-color: #020202;
   font-family: "Open Sans", sans-serif;
   color: #272727;
