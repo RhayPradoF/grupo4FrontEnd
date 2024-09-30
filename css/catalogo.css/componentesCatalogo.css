@@ -1,0 +1,126 @@
+/* CABEÇALHO */
+
+.logotipo{
+    margin-left: 10%;
+}
+
+.menu{
+    list-style: none;
+    margin-right: 10%;
+    font-size: 2rem;
+}
+
+.menu__item{
+    display: inline-block;
+    margin-right: 50px;
+    text-decoration: none;
+    color: #000;
+}
+
+.menu__item:last-child{
+    margin-right: 0;
+}
+
+.menu__item:hover{
+    text-decoration: underline;
+    color: #311228;
+}
+/* FIM CABEÇALHO */
+
+/*INICIO CATÁLOGO*/
+.titulo__h1{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+}
+
+.titulo__h2{
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+.titulo__p{
+    margin: 0;
+    font-style: italic;
+    font-size: 18px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.7);
+    
+}
+
+.titulo__btn{
+    border: none;
+    background-color: #b3b3b3;
+   color: #000;
+   padding: 5px 10px;
+   font-size: 15px;
+   border-radius: 30px;
+
+}
+.titulo__btn:hover{
+    background-color: #311228;
+    color: #fff;
+}
+.titulo__input{
+    margin-top: 40px;
+    border: none;
+    padding: 5px 20px;
+    font-size: 16px;
+    border-radius: 30px;
+}
+
+/* .f{
+    height: 500px;
+    border:1px solid #fff;
+
+} */
+
+.catalogo__filme{
+    width: 100%;
+    padding: 0 20px;
+    text-align: center;
+    margin-top: 20px;
+    
+
+}
+
+.filme__img{
+    border-radius: 15px;
+    margin-bottom: 15px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.15); /*coloquei um sombreado nas imagens para dar um destaque um pouco de 3d*/
+
+}
+
+.filme__p{
+    font-size: 18px;
+   font-weight: 100;
+}
+
+/*FIM CATÁLOGO*/
+
+
+
+/* RODAPE */
+.rodape-icons{
+    height: 60px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+
+.rodape__icons{
+    list-style: none;
+}
+
+.icons{
+    display: inline-block;
+    margin-right: 30px;
+}
+
+
+.rodape__copyright{
+    height: 40px;
+    text-align: center;
+    padding: 9px 0;
+}
+/* FIM RODAPE */

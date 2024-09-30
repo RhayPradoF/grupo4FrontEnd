@@ -1,0 +1,88 @@
+/* CABEÇALHO */
+.layout-cabecalho {
+  width: 100%;
+  height: 70px;
+  background-color: #b3b3b3;
+  position: static;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.container--cabecalho {
+  width: 100%;
+  margin: 0;
+}
+
+.layout-logo {
+  height: 70px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  box-sizing: border-box;
+}
+
+.layout-menu {
+  margin: 0;
+  padding: 0;
+  height: 70px;
+  box-sizing: border-box;
+  display: flex;
+  align-items:end;
+  justify-content: end;
+}
+/* FIM CABEÇALHO */
+
+
+
+
+/* RODAPE */
+.layout-rodape{
+    height: 100px;
+    background-color: #311228;
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+}
+/* FIM RODAPE */
+
+/*inicio Catálogo*/
+
+
+.layout-titulo{
+  width: 100%;
+  color: #000000;
+  background-color: #000000;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  padding: 20px 50px;
+
+}
+
+.layout-catalogo{
+  width: 100%;
+  /* background-color: #1c1b1b; */
+  background: linear-gradient(180deg, #000000, #1c1b1b,#000000); /* Gradiente vertical */
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  padding: 20px 20px;
+}
+
+
+/* .conheca-filmes{
+  background-color: transparent;
+  color: #fff;
+}
+
+.img-responsive{
+  border-radius: 15px 15px 15px 15px;
+}
+.imagem {
+  text-align: left;
+  font-size: 16px;
+  color: #B3B3B3;
+} */
+
+/*Fim Catálogo*/
