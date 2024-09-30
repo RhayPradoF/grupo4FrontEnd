@@ -1,24 +1,169 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
+
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Filmio</title>
-    <link rel="stylesheet" href="/css/bootstrap-grid.min.css" />
-    <link rel="stylesheet" href="/css/base.css" />
-    <link rel="stylesheet" href="/css/layout.css" />
-    <link rel="stylesheet" href="/css/componentes.css" />
+    <link rel="stylesheet" href="../css/bootstrap-grid.min.css" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
 
+    <link rel="stylesheet" href="../css/base.css" />
+    <link rel="stylesheet" href="../css/Sobre/componentesSobre.css" />
+    <link rel="stylesheet" href="../css/Sobre/layoutSobre.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
-      rel="stylesheet"
-    />
-
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <div class="viewport">
+        <!-- CABEÇALHO -->
+        <header class="layout-cabecalho">
+            <div class="container container--cabecalho">
+                <div class="row">
+                    <div class="col-lg-3 layout-logo">
+                        <img class="logotipo" src="../assets/img/filmioSemFundo.png" alt="logo filmio" width="110px" />
+                    </div>
+                    <div class="col-lg-9 layout-menu">
+                        <ul class="menu">
+                            <li class="menu__item">
+                                <a class="menu__item" href="../index.html">Home</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__item" href="./pages/catalogo.html">Catalogo</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__item" href="./pages/sobre.html">Sobre Nós</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__item" href="./pages/contatos.html">Contatos</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- FIM CABEÇALHO -->
+
+        <!--início Sobre Nós-->
+        <main>
+            <section class="layout-titulo">
+                <h1 class="titulo__h1">Quem Somos?</h1>
+                <p class="titulo__p">Somos os maiores fãs do entretenimento do mundo,e procuramos sempre 
+                    ajudar os nossos membros a encontrar a sua próxima história favorita.</p>
+               
+
+            </section>
+            <section class="layout-time">
+                <h1 class="time__h1">Nossa Equipe</h1>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-12">
+                            <div class="time__foto">
+                                <img class="time__img" src="../assets/img/Aline.png" alt="Aline" width="250px">
+                                <p class="time__p">
+                                    Aline Bastos
+                                </p>
+                                <p class="time__p">Resp. Estilização pag. sobre nós.</p>
+
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-12">
+                            <div class="time__foto">
+                                <img class="time__img" src="../assets/img/Wesseley.png" alt="Wesseley" width="250px">
+                                <p class="time__p">
+                                    Wesseley Júnior
+                                </p>
+                                <p class="time__p">Resp. home, cabeçalho e rodapé.</p>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-12">
+                            <div class="time__foto">
+                                <img class="time__img" src="../assets/img/Guilherme.png" alt="Guilherme" width="250px">
+                                <p class="time__p">
+                                    Guilherme Lopes
+                                </p>
+                                <p class="time__p">Resp. estilização pag. individual dos filmes.</p>
+
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-12">
+                            <div class="time__foto">
+                                <img class="time__img" src="../assets/img/Rhayssa.png" alt="Rhayssa" width="250px">
+                                <p class="time__p">
+                                    Rhayssa Prado
+                                </p>
+                                <p class="time__p">Resp. estilização pag. catálogo.</p>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-12">
+                            <div class="time__foto">
+                                <img class="time__img" src="../assets/img/Matheus .jpg" alt="Matheus" width="250px">
+                                <p class="time__p">
+                                    Matheus Alves
+                                </p>
+                                <p class="time__p">Resp. estilização pag. contatos.</p>
+
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+
+            </section>
+        </main>
+
+        <!--Final Sobre Nós-->
+
+        <!-- RODAPE -->
+        <footer class="layout-rodape">
+            <div class="rodape-icons">
+                <ul class="rodape__icons">
+                    <li class="icons">
+                        <a href="https://www.instagram.com/serratecoficial/"><img src="../assets/img/instagramIcon.png"
+                                alt="Instagram" height="40px" /></a>
+                    </li>
+                    <li class="icons">
+                        <a href="https://www.facebook.com/serratecoficial"><img src="../assets/img/FacebookIcon.png"
+                                alt="Facebook" height="40px" /></a>
+                    </li>
+                    <li class="icons">
+                        <a href="https://www.linkedin.com/company/serratecoficial/posts/?feedView=all"><img
+                                src="../assets/img/LinkedInIcon.png" alt="Linkedin" height="40px" /></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="rodape__copyright">
+                <p>&copy;2024 Todos os direitos reservados Filmio LTDA</p>
+            </div>
+        </footer>
+        <!-- FIM RODAPE -->
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
+
       href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
       rel="stylesheet"
     />
@@ -83,3 +228,4 @@
     </div>
   </body>
 </html>
+

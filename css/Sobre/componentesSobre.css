@@ -1,0 +1,100 @@
+/* CABEÇALHO */
+
+.logotipo {
+  margin-left: 10%;
+}
+
+.menu {
+  list-style: none;
+  margin-right: 10%;
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+
+.menu__item {
+  display: inline-block;
+  margin-right: 50px;
+  text-decoration: none;
+  color: #000;
+}
+
+.menu__item:last-child {
+  margin-right: 0;
+}
+
+.menu__item:hover {
+  text-decoration: underline;
+  color: #311228;
+}
+
+/* FIM CABEÇALHO */
+.titulo__p {
+
+  margin: 0;
+  font-size: 30px;
+
+}
+
+.titulo__p:last-child {
+  border-bottom: 1px solid #fff;
+
+}
+
+
+.titulo__h1 {
+  font-size: 50px;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+
+.time__foto{
+  text-align: center;
+  margin-top: 30px;
+
+}
+.time__p{
+  margin: 0;
+  font-size: 20px;
+  font-style: italic;
+}
+@media(max-width:900px){
+  .titulo__h1{
+    font-size: 30px;
+  }
+  .titulo__p{
+    font-size: 20px;
+  }
+  .time__h1{
+    font-size: 20px;
+  }
+}
+
+.time__img{
+  margin-bottom: 15px;
+
+}
+
+/* RODAPE */
+.rodape-icons {
+  height: 60px;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.rodape__icons {
+  list-style: none;
+}
+
+.icons {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.rodape__copyright {
+  height: 40px;
+  text-align: center;
+  padding: 9px 0;
+}
+
+/* FIM RODAPE */
