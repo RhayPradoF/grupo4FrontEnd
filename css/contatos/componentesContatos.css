@@ -2,13 +2,17 @@
 
 .logotipo {
   margin-left: 10%;
-  
 }
+
 .menu {
   list-style: none;
   margin-right: 10%;
   font-size: 2rem;
+}
+
+.menu__lista{
   margin-bottom: 0;
+
 }
 
 .menu__item {
@@ -26,6 +30,63 @@
   text-decoration: underline;
   color: #311228;
 }
+
+
+.btn--chaveador{
+  width: 25px;
+  height: 30px;
+  background: none;
+  background-image: url('../../assets/img/hamburguer.png');
+  outline: none;
+  border: 0;
+  float: right;
+  margin-right: 50px;
+}
+
+@media(min-width: 1041px){
+  .btn--chaveador{
+    display: none;
+  }
+}
+
+@media(max-width: 1040px){
+  .menu{
+    position: absolute;
+    z-index: 10;
+    right: 20px;
+    top: 70px;
+    background-color: #2727278c;
+    margin-right: 0;
+    padding: 10px 20px;
+    display: none;
+    
+  }
+
+  .menu__lista{
+    margin-bottom: 0;
+    padding-left: 0;
+    text-align: center;
+    
+  }
+  
+  .menu__item{
+    margin: 0;
+    padding: 0;
+    display: block; 
+    color: #fff;   
+  }
+
+  .menu__item:hover{
+    text-decoration: underline;
+    color: #fff;
+  }
+
+  .logotipo {
+    margin-left: 30%;
+  }
+}
+
+
 /* FIM CABEÇALHO */
 
 .capa__titulo{
@@ -137,6 +198,7 @@
   padding: 20px 10px 20px 70px;
   width: 380px;
   height: 150px;
+  margin-bottom: 50px;
   
 }
 

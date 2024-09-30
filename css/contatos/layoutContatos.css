@@ -10,7 +10,6 @@
   font-family: "Bebas Neue", sans-serif;
 }
 
-
 .container--cabecalho {
   width: 100%;
   margin: 0;
@@ -26,17 +25,25 @@
   box-sizing: border-box;
 }
 
+.layout-menu {
+  margin: 0;
+  padding: 0;
+  height: 70px;
+  box-sizing: border-box;
+  display: flex;
+  align-items:end;
+  justify-content: end;
+}
 
-
+@media(max-width:1040px){
   .layout-menu {
     margin: 0;
-    padding: 0;
-    height: 70px;
+    padding: 25px;
     box-sizing: border-box;
-    display: flex;
-    align-items:end;
-    justify-content: end;
+    display: block;
+    position: relative;
   }
+}
 /* FIM CABEÇALHO */
 
 
@@ -66,6 +73,7 @@ color: #fff;
 .layout-card{
   width: 100%;
   margin-top: 50px;
+  
 }
 
 

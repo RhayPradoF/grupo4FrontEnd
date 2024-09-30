@@ -30,7 +30,7 @@
       <header class="layout-cabecalho">
         <div class="container container--cabecalho">
           <div class="row">
-            <div class="col-lg-3 layout-logo">
+            <div class="col-lg-3 col-md-4 col-sm-4 layout-logo">
               <img
                 class="logotipo"
                 src="../assets/img/filmioSemFundo.png"
@@ -38,31 +38,35 @@
                 width="110px"
               />
             </div>
-            <div class="col-lg-9 layout-menu">
-              <ul class="menu">
-                <li class="menu__item">
-                  <a class="menu__item" href="../index.html">Home</a>
-                </li>
-                <li class="menu__item">
-                  <a class="menu__item" href="./pages/catalogo.html"
-                    >Catalogo</a
-                  >
-                </li>
-                <li class="menu__item">
-                  <a class="menu__item" href="./pages/sobre.html">Sobre Nós</a>
-                </li>
-                <li class="menu__item">
-                  <a class="menu__item" href="./pages/contatos.html"
-                    >Contatos</a
-                  >
-                </li>
-              </ul>
+            <div class="col-lg-9 col-md-8 col-sm-8 layout-menu">
+              <div class="menu" id="menu">
+                <ul class="menu__lista">
+                  <li class="menu__item">
+                    <a class="menu__item" href="./index.html">Home</a>
+                  </li>
+                  <li class="menu__item">
+                    <a class="menu__item" href="./pages/catalogo.html"
+                      >Catalogo</a
+                    >
+                  </li>
+                  <li class="menu__item">
+                    <a class="menu__item" href="./pages/sobre.html"
+                      >Sobre Nós</a
+                    >
+                  </li>
+                  <li class="menu__item">
+                    <a class="menu__item" href="./pages/contatos.html"
+                      >Contatos</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <button class="btn--chaveador" onclick="clickMenu()"></button>
             </div>
           </div>
         </div>
       </header>
       <!-- FIM CABEÇALHO -->
-
       <main>
 
         <section class="layout-capa">
@@ -222,6 +226,8 @@
       </footer>
       <!-- FIM RODAPE -->
     </div>
+
+    <script src="../js/hamburguerMenu.js"></script>
     
   </body>
 </html>
