@@ -18,9 +18,10 @@ function criarFilme(id){
     sessionStorage.setItem('avaliacao', filme.avaliacao);
     sessionStorage.setItem('duracao', filme.duracao);
     sessionStorage.setItem('categoria', filme.categoria);
+    sessionStorage.setItem('linkTrailer', filme.linkTrailer);
     
     
-    window.location.href = 'D:/serratec/front/serraflix/grupo4FrontEnd/pages/filmes.html';
+    window.location.href = '/home/user/grupo4FrontEnd/pages/filmes.html';
 
 }
 
@@ -38,5 +39,8 @@ if (window.location.pathname.endsWith('filmes.html')) {
 
 
 function assista(){
-    window.location.href = filme.linkTrailer;
+    var linkTrailer = sessionStorage.getItem('linkTrailer');
+    console.log(linkTrailer);
+     
+    window.location.href = linkTrailer;
 }
