@@ -1,98 +1,7 @@
-/* CABEÇALHO */
-
-.logotipo {
-  margin-left: 10%;
-}
-
-.menu {
-  list-style: none;
-  margin-right: 10%;
-  font-size: 2rem;
-}
-
-.menu__lista{
-  margin-bottom: 0;
-
-}
-
-.menu__item {
-  display: inline-block;
-  margin-right: 50px;
-  text-decoration: none;
-  color: #000;
-}
-
-.menu__item:last-child {
-  margin-right: 0;
-}
-
-.menu__item:hover {
-  text-decoration: underline;
-  color: #311228;
-}
-
-
-.btn--chaveador{
-  width: 25px;
-  height: 30px;
-  background: none;
-  background-image: url('../../assets/img/hamburguer.png');
-  outline: none;
-  border: 0;
-  float: right;
-  margin-right: 50px;
-}
-
-@media(min-width: 1041px){
-  .btn--chaveador{
-    display: none;
-  }
-}
-
-@media(max-width: 1040px){
-  .menu{
-    position: absolute;
-    z-index: 10;
-    right: 20px;
-    top: 70px;
-    background-color: #2727278c;
-    margin-right: 0;
-    padding: 10px 20px;
-    display: none;
-    
-  }
-
-  .menu__lista{
-    margin-bottom: 0;
-    padding-left: 0;
-    text-align: center;
-    
-  }
-  
-  .menu__item{
-    margin: 0;
-    padding: 0;
-    display: block; 
-    color: #fff;   
-  }
-
-  .menu__item:hover{
-    text-decoration: underline;
-    color: #fff;
-  }
-
-  .logotipo {
-    margin-left: 30%;
-  }
-}
-/* FIM CABEÇALHO */
-
-
-
 /* COMPONENTES FILME */
 .capa {
   margin-top: 60px;
-  height: 80vh;
+  margin-bottom: 50px;
 }
 
 .capa-img {
@@ -103,6 +12,7 @@
 
 .texto {
   margin-top: 120px;
+  margin-bottom: 50px;
 }
 
 .texto-titulo {
@@ -182,26 +92,3 @@
   }
 }
 /*FIM*/
-
-/* RODAPE */
-.rodape-icons {
-  height: 60px;
-  text-align: center;
-  padding-top: 15px;
-}
-
-.rodape__icons {
-  list-style: none;
-}
-
-.icons {
-  display: inline-block;
-  margin-right: 30px;
-}
-
-.rodape__copyright {
-  height: 40px;
-  text-align: center;
-  padding: 9px 0;
-}
-/* FIM RODAPE */

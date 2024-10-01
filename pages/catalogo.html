@@ -6,6 +6,8 @@
     <title>Filmio</title>
     <link rel="stylesheet" href="../css/bootstrap-grid.min.css" />
     <link rel="stylesheet" href="../css/base.css" />
+    <link rel="stylesheet" href="../css/componentesCabecalhoRodape.css">
+    <link rel="stylesheet" href="../css/layoutCabecalhoRodape.css">
     <link rel="stylesheet" href="../css/catalogo/layoutCatalogo.css" />
     <link rel="stylesheet" href="../css/catalogo/componentesCatalogo.css" />
 
@@ -36,13 +38,14 @@
                 src="../assets/img/filmioSemFundo.png"
                 alt="logo filmio"
                 width="110px"
+                onclick=" window.location.href = './index.html'"
               />
             </div>
             <div class="col-lg-9 col-md-8 col-sm-8 layout-menu">
               <div class="menu" id="menu">
                 <ul class="menu__lista">
                   <li class="menu__item">
-                    <a class="menu__item" href="../index.html">Home</a>
+                    <a class="menu__item" href="./index.html">Home</a>
                   </li>
                   <li class="menu__item">
                     <a class="menu__item" href="./catalogo.html">Catalogo</a>
@@ -88,11 +91,11 @@
               name="busca"
               placeholder="Pesquisar..."
             />
-            <button class="titulo__btn" type="submit">Buscar</button>
+            <button class="titulo__btn" onclick="buscaFilme()">Buscar</button>
           </form>
         </section>
 
-        <section class="layout-catalogo">
+        <section class="layout-catalogo" id="catalogo-on">
           <div class="container">
             <div class="row">
 
@@ -104,7 +107,7 @@
                     src="../assets/img/harryPotterAPedraFilosofal.jpg"
                     width="200px"
                     alt="harryPotterAPedraFilosofal"
-                    onclick="criarFilme('HarryPotter1')"
+                    onclick="criarFilme('harrypotter1')"
                   />
                   <p class="filme__p">
                     Harry Potter e a Pedra <br>Filosofal l 2001
@@ -120,9 +123,9 @@
                     src="../assets/img/HarryPotterEACamaraSecreta.jpg"
                     width="200px"
                     alt="HarryPotterEACamaraSecreta"
-                    onclick="criarFilme('HarryPotter2')"
+                    onclick="criarFilme('harrypotter2')"
                   />
-                  <p class="filme__p" id="HarryPotter2">
+                  <p class="filme__p">
                     Harry Potter e a <br>Câmara Secreta |2002
                   </p>
                 </div>
@@ -136,7 +139,7 @@
                     src="../assets/img/HarryPotterEOPrisioneiroDeAzkaban.jpg"
                     width="200px"
                     alt="HarryPotterEOPrisioneiroDeAzkaban"
-                    onclick="criarFilme('HarryPotter3')"
+                    onclick="criarFilme('harrypotter3')"
                   />
                   <p class="filme__p">
                     Harry Potter e o Prisioneiro <br>de Azkaban |2004
@@ -155,7 +158,7 @@
                     src="../assets/img/HarryPotterEOCaliceDeFogo.jpg"
                     width="200px"
                     alt="HarryPotterEOCaliceDeFogo"
-                    onclick="criarFilme('HarryPotter4')"
+                    onclick="criarFilme('harrypotter4')"
                   />
                   <p class="filme__p">
                     Harry Potter e o Cálice <br>de Fogo |2005
@@ -171,7 +174,7 @@
                     src="../assets/img/HarryPotterEAOrdemDaFenix.jpg"
                     width="200px"
                     alt="HarryPotterEAOrdemDaFenix"
-                    onclick="criarFilme('HarryPotter5')"
+                    onclick="criarFilme('harrypotter5')"
                   />
                   <p class="filme__p">
                     Harry Potter e a Ordem <br>da Fênix |2007
@@ -187,7 +190,7 @@
                     src="../assets/img/HarryPotterEOEnigmaDoPrincipe.jpg"
                     width="200px"
                     alt="HarryPotterEOEnigmaDoPrincipe"
-                    onclick="criarFilme('HarryPotter6')"
+                    onclick="criarFilme('harrypotter6')"
                   />
                   <p class="filme__p">
                     Harry Potter e o Enigma <br>do Príncipe |2009
@@ -206,7 +209,7 @@
                     src="../assets/img/HarryPotterEAsReliquiasDaMorteParte1.jpg"
                     width="200px"
                     alt="HarryPotterEAsReliquiasDaMorteParte1"
-                    onclick="criarFilme('HarryPotter7')"
+                    onclick="criarFilme('harrypotter7')"
                   />
                   <p class="filme__p">
                     Harry Potter e as Relíquias <br />da Morte - Parte 1 |2010
@@ -222,7 +225,7 @@
                     src="../assets/img/HarryPotterEAsReliquiasDaMorteParte2.jpg"
                     width="200px"
                     alt="HarryPotterEAsReliquiasDaMorteParte2"
-                    onclick="criarFilme('HarryPotter8')"
+                    onclick="criarFilme('harrypotter8')"
                   />
                   <p class="filme__p">
                     Harry Potter e as Relíquias <br />da Morte - Parte 2 |2011
@@ -238,7 +241,7 @@
                     src="../assets/img/VelozesEFuriososDesafioEmToquio.jpg"
                     width="200px"
                     alt="VelozesEFuriososDesafioEmToquio"
-                    onclick="criarFilme('VelozesEFuriosos3')"
+                    onclick="criarFilme('velozesefuriosos3')"
                   />
                   <p class="filme__p">
                     Velozes e Furiosos: Desafio <br>em Tóquio |2006
@@ -251,13 +254,13 @@
             <div class="row">
               <!-- 10º filme -->
               <div class="col-lg-4 col-sm-12 catalogo__card">
-                <div class="catalogo__filme">
+                <div class="catalogo__filme" >
                   <img
                     class="filme__img"
                     src="../assets/img/DunaParteDois.jpg"
                     width="200px"
                     alt="DunaParteDois"
-                    onclick="criarFilme('DunaParteDois2024')"
+                    onclick="criarFilme('dunapartedois2024')"
                   />
                   <p class="filme__p">
                     Duna: Parte Dois| 2024
@@ -273,7 +276,7 @@
                     src="../assets/img/PanteraNegraWakandaParaSempre.jpg"
                     width="200px"
                     alt="PanteraNegraWakandaParaSempre"
-                    onclick="criarFilme('PanteraNegra2')"
+                    onclick="criarFilme('panteranegra2')"
                   />
                   <p class="filme__p">
                     Pantera Negra: Wakanda para <br />Sempre | 2022
@@ -289,7 +292,7 @@
                     src="../assets/img/AtividadeParanormal3.jpg"
                     width="200px"
                     alt="AtividadeParanormal3"
-                    onclick="criarFilme('AtividadeParanormal3')"
+                    onclick="criarFilme('atividadeparanormal3')"
                   />
                   <p class="filme__p">
                     Atividade Paranormal 3 | 2011
@@ -301,6 +304,24 @@
 
           </div>
         </section>
+
+        <section class="layout-catalogo" id="filme-resultado" style="display: none;">
+          <div class="catalogo__card">
+            <div class="catalogo__filme">
+              <img
+                class="filme__img"
+                id="filme__img"
+                name=""
+                src=""
+                width="200px"
+                alt=""
+                onclick="criarFilme(this.name)"
+              />
+              <p class="filme__p" id="tituloP"></p>
+            </div>
+          </div>
+        </section>
+
       </main>
 
       <!-- Fim CATÁLOGO -->
@@ -345,5 +366,6 @@
     <script src="../js/script.js"></script>
     <script src="../js/dados.js"></script>
     <script src="../js/hamburguerMenu.js"></script>
+    <script src="../js/buscarFilme.js"></script>
   </body>
 </html>

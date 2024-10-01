@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Filmio</title>
+    <link rel="stylesheet" href="../css/bootstrap-grid.min.css" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+
+    <link rel="stylesheet" href="../css/base.css" />
+    <link rel="stylesheet" href="../css/componentesCabecalhoRodape.css">
+    <link rel="stylesheet" href="../css/layoutCabecalhoRodape.css">
+    <link rel="stylesheet" href="../css/home/componentesHome.css" />
+    <link rel="stylesheet" href="../css/home/layoutHome.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="viewport">
+      <!-- CABEÇALHO -->
+      <header class="layout-cabecalho">
+        <div class="container container--cabecalho">
+          <div class="row">
+            <div class="col-lg-3 col-md-4 col-sm-4 layout-logo">
+              <img
+                class="logotipo"
+                src="../assets/img/filmioSemFundo.png"
+                alt="logo filmio"
+                width="110px"
+                onclick=" window.location.href = './index.html'"
+              />
+            </div>
+            <div class="col-lg-9 col-md-8 col-sm-8 layout-menu">
+              <div class="menu" id="menu">
+                <ul class="menu__lista">
+                  <li class="menu__item">
+                    <a class="menu__item" href="./index.html">Home</a>
+                  </li>
+                  <li class="menu__item">
+                    <a class="menu__item" href="./catalogo.html"
+                      >Catalogo</a
+                    >
+                  </li>
+                  <li class="menu__item">
+                    <a class="menu__item" href="./sobre.html"
+                      >Sobre Nós</a
+                    >
+                  </li>
+                  <li class="menu__item">
+                    <a class="menu__item" href="./contatos.html"
+                      >Contatos</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <button class="btn--chaveador" onclick="clickMenu()"></button>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- FIM CABEÇALHO -->
+      <main>
+        <section class="carrosel">
+          <div
+            id="carouselExampleAutoplaying"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="5000">
+                <img
+                  src="../assets/img/harryPotterCarrosel.png"
+                  class="d-block w-100 layout-carrosel"
+                  alt="harryPotter"
+                />
+                <div class="carousel-caption d-none d-md-block card-carrosel">
+                  <p class="card-carrosel__texto">
+                    Harry Potter e as Relíquias da morte - Parte 2
+                  </p>
+                  <button class="btn__carrosel" onclick="criarFilme('harrypotter8')">
+                    Assista agora
+                  </button>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="5000">
+                <img
+                  src="../assets/img/dunaCarrosel.png"
+                  class="d-block w-100 layout-carrosel"
+                  alt="Duna"
+                />
+                <div class="carousel-caption d-none d-md-block card-carrosel">
+                  <p class="card-carrosel__texto">Duna - Parte 2</p>
+                  <button class="btn__carrosel"  onclick="criarFilme('dunapartedois2024')">
+                    Assista agora
+                  </button>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="5000">
+                <img
+                  src="../assets/img/desafioEmToquioCarrosel.png"
+                  class="d-block w-100 layout-carrosel"
+                  alt="Desafio Em Toquio"
+                />
+                <div class="carousel-caption d-none d-md-block card-carrosel">
+                  <div class="card__carrosel">
+                    <p class="card-carrosel__texto">
+                      Velozes e Furiosos - Desafio em Tóquio
+                    </p>
+                    <button class="btn__carrosel" onclick="criarFilme('velozesefuriosos3')">
+                      Assista agora
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              data-bs-target="#carouselExampleAutoplaying"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon carrosel-seta"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleAutoplaying"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon carrosel-seta"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </section>
+
+        <section class="layout-banner">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-7 col-md-12 banner-texto">
+                <p class="banner__paragrafo">
+                  Filmes para Todos os Momentos Comédias, dramas, ação, romances
+                  e muito mais! No Filmio, temos filmes para cada gosto. Curta
+                  maratonas, explore novos gêneros ou reviva seus favoritos com
+                  apenas um clique.
+                </p>
+              </div>
+              <div class="col-lg-5 col-md-12 banner-img">
+                <img
+                  class="banner__imagem"
+                  src="../assets/img/pipoca.png"
+                  alt="Pipoca"
+                  width="80%"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="layout-planos">
+          <h1 class="planos__h1">Planos Mensais</h1>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4 col-md-12 planos-card">
+                <div class="planos__card">
+                  <div class="planos__titulo">
+                    <h2 class="planos__h2">Padrão</h2>
+                  </div>
+                  <div class="planos__descricao">
+                    <ul class="planos__lista">
+                      <li class="planos__li">Telas: 1</li>
+                      <li class="planos__li">Resolução: 1080p</li>
+                      <li class="planos__li">Anúncios: Sim</li>
+                      <li class="planos__li">R$25,00</li>
+                    </ul>
+                  </div>
+
+                  <button class="planos__btn" onclick=" window.location.href = './assinatura.html'">Assine Já</button>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-12 planos-card">
+                <div class="planos__card">
+                  <div class="planos__titulo">
+                    <h2 class="planos__h2">Plus</h2>
+                  </div>
+                  <div class="planos__descricao">
+                    <ul class="planos__lista">
+                      <li class="planos__li">Telas: 2</li>
+                      <li class="planos__li">Resolução: 1080p</li>
+                      <li class="planos__li">Anúncios: Não</li>
+                      <li class="planos__li">R$50,00</li>
+                    </ul>
+                  </div>
+
+                  <button class="planos__btn" onclick=" window.location.href = './assinatura.html'">Assine Já</button>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-12 planos-card">
+                <div class="planos__card">
+                  <div class="planos__titulo">
+                    <h2 class="planos__h2">Premium</h2>
+                  </div>
+                  <div class="planos__descricao">
+                    <ul class="planos__lista">
+                      <li class="planos__li">Telas: 4</li>
+                      <li class="planos__li">Resolução: 1080p</li>
+                      <li class="planos__li">Anúncios: Não</li>
+                      <li class="planos__li">R$70,00</li>
+                    </ul>
+                  </div>
+                  <button class="planos__btn" onclick=" window.location.href = './assinatura.html'">Assine Já</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <!-- RODAPE -->
+      <footer class="layout-rodape">
+        <div class="rodape-icons">
+          <ul class="rodape__icons">
+            <li class="icons">
+              <a href="https://www.instagram.com/serratecoficial/"
+                ><img
+                  src="../assets/img/instagramIcon.png"
+                  alt="Instagram"
+                  height="40px"
+              /></a>
+            </li>
+            <li class="icons">
+              <a href="https://www.facebook.com/serratecoficial"
+                ><img
+                  src="../assets/img/FacebookIcon.png"
+                  alt="Facebook"
+                  height="40px"
+              /></a>
+            </li>
+            <li class="icons">
+              <a
+                href="https://www.linkedin.com/company/serratecoficial/posts/?feedView=all"
+                ><img
+                  src="../assets/img/LinkedInIcon.png"
+                  alt="Linkedin"
+                  height="40px"
+              /></a>
+            </li>
+          </ul>
+        </div>
+        <div class="rodape__copyright">
+          <p>&copy;2024 Todos os direitos reservados Filmio LTDA</p>
+        </div>
+      </footer>
+      <!-- FIM RODAPE -->
+    </div>
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/hamburguerMenu.js"></script>
+    <script src="../js/script.js"></script>
+    <script src="../js/dados.js"></script>
+  </body>
+</html>
