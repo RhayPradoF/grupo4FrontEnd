@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="../css/bootstrap.min.css" />
 
     <link rel="stylesheet" href="../css/base.css" />
+    <link rel="stylesheet" href="../css/componentesCabecalhoRodape.css">
+    <link rel="stylesheet" href="../css/layoutCabecalhoRodape.css">
     <link rel="stylesheet" href="../css/contatos/componentesContatos.css" />
     <link rel="stylesheet" href="../css/contatos/layoutContatos.css" />
 
@@ -36,6 +38,7 @@
                 src="../assets/img/filmioSemFundo.png"
                 alt="logo filmio"
                 width="110px"
+                onclick=" window.location.href = './index.html'"
               />
             </div>
             <div class="col-lg-9 col-md-8 col-sm-8 layout-menu">
@@ -83,45 +86,31 @@
              </div>
 
             <div class="container">
-
+              <form>
                 <div class="row">
-
                     <div class="col-xl-6 col-lg-12">
-
                         <div class="formulario__area">
-                        <form action="">
-
-                            <input class="formulario__campo" type="text" name="name" placeholder="Nome">
-                        </form>
-                    </div>
+                            <input class="formulario__campo" type="text" name="nome" placeholder="Nome" id="nome">
+                        </div>
                     </div>
 
                     <div class="col-xl-6 col-lg-12">
                         <div class="formulario__area">
-                            <form action="">
-                                <input class="formulario__campo" type="email" name="email" placeholder="Email">
-                            </form>
+                          <input class="formulario__campo" type="email" name="email" placeholder="Email" id="email">
                         </div>
                     </div>
                 </div>
 
                 <div class="row">
-
                     <div class="col-xl-6 col-lg-12">
-
                         <div class="formulario__area">
-                        <form action="">
-
-                            <input class="formulario__campo" type="text" name="telefone" placeholder="Telefone">
-                        </form>
-                    </div>
+                            <input class="formulario__campo" type="text" name="telefone" placeholder="Telefone" id="telefone">
+                        </div>
                     </div>
 
                     <div class="col-xl-6 col-lg-12">
                         <div class="formulario__area">
-                            <form action="">
-                                <input class="formulario__campo" type="text" name="assunto" placeholder="Assunto">
-                            </form>
+                            <input class="formulario__campo" type="text" name="assunto" placeholder="Assunto" id="assunto">
                         </div>
                     </div>
                 </div>
@@ -129,16 +118,22 @@
                 <div class="row">
                     <div class="col-xl-12">
                         <div class="formulario__campo-comentario">
-                            <textarea class="formulario__comentario" name="comentarios" placeholder="Escreva um Comentário..."></textarea>
+                            <textarea class="formulario__comentario" name="comentario" placeholder="Escreva um Comentário..." id="comentario"></textarea>
                         </div>
                     </div>
+                  </div>
+                  <div aria-hidden="true" style="position: absolute; left: -5000px;">
+                    /* real people should not fill this in and expect good things - do not remove this or risk form bot signups */
+                    <input type="text" name="b_e3377211ade608287d57258a0_232c8a3a82" tabindex="-1" value="">
                 </div>
-                <div class="formulario__campo-btn">
-                    <button class="formulario__btn">Enviar</button>
-                </div>
+            
+              </form>
+              <div class="formulario__campo-btn">
+                <button class="formulario__btn"  onclick="enviar()">ENVIAR</button>
+              </div>
             </div>
 
-            <section class="layout-card">
+          <section class="layout-card">
             <div class="container">
                 <div class="row">
                 <div class="col-xl-4 col-lg-12 formulario__area-card">
@@ -180,7 +175,7 @@
                 </div>
                 </div>
             </div>
-        </section>
+          </section>
 
         </section>
         
@@ -228,6 +223,6 @@
     </div>
 
     <script src="../js/hamburguerMenu.js"></script>
-    
+    <script src="../js/contatos.js"></script>
   </body>
 </html>

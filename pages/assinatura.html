@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Filmio</title>
+    <link rel="stylesheet" href="../css/bootstrap-grid.min.css" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+
+    <link rel="stylesheet" href="../css/base.css" />
+    <link rel="stylesheet" href="../css/componentesCabecalhoRodape.css">
+    <link rel="stylesheet" href="../css/layoutCabecalhoRodape.css">
+    <link rel="stylesheet" href="../css/assinaturaAgradecimento/componentes.css" />
+    <link rel="stylesheet" href="../css/assinaturaAgradecimento/layout.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+    <div class="viewport">
+      <!-- CABEÇALHO -->
+      <header class="layout-cabecalho">
+        <div class="container container--cabecalho">
+          <div class="row">
+            <div class="col-lg-3 col-md-4 col-sm-4 layout-logo">
+              <img
+                class="logotipo"
+                src="../assets/img/filmioSemFundo.png"
+                alt="logo filmio"
+                width="110px"
+                onclick=" window.location.href = './index.html'"
+              />
+            </div>
+            <div class="col-lg-9 col-md-8 col-sm-8 layout-menu">
+              <div class="menu" id="menu">
+                <ul class="menu__lista">
+                  <li class="menu__item">
+                    <a class="menu__item" href="./index.html">Home</a>
+                  </li>
+                  <li class="menu__item">
+                    <a class="menu__item" href="./catalogo.html"
+                      >Catalogo</a
+                    >
+                  </li>
+                  <li class="menu__item">
+                    <a class="menu__item" href="./sobre.html"
+                      >Sobre Nós</a
+                    >
+                  </li>
+                  <li class="menu__item">
+                    <a class="menu__item" href="./contatos.html"
+                      >Contatos</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <button class="btn--chaveador" onclick="clickMenu()"></button>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- FIM CABEÇALHO -->
+      <main>
+        <section class="layout-titulo">
+            <h1 class="titulo__h1">Estamos em manutenção!</h1>
+            <p>Nossa equipe está trabalhando para solucionar os problemas.</p>
+            <p class="titulo__p">A Filmio agradece a sua compreensão.</p> 
+            <img src="../assets/img/bomba.gif" alt="bomba" width="300px">    
+        </section>
+
+
+      </main>
+       <!-- RODAPE -->
+       <footer class="layout-rodape">
+        <div class="rodape-icons">
+          <ul class="rodape__icons">
+            <li class="icons">
+              <a href="https://www.instagram.com/serratecoficial/"
+                ><img
+                  src="../assets/img/instagramIcon.png"
+                  alt="Instagram"
+                  height="40px"
+                  onclick=" window.location.href = './index.html'"
+              /></a>
+            </li>
+            <li class="icons">
+              <a href="https://www.facebook.com/serratecoficial"
+                ><img
+                  src="../assets/img/FacebookIcon.png"
+                  alt="Facebook"
+                  height="40px"
+              /></a>
+            </li>
+            <li class="icons">
+              <a
+                href="https://www.linkedin.com/company/serratecoficial/posts/?feedView=all"
+                ><img
+                  src="../assets/img/LinkedInIcon.png"
+                  alt="Linkedin"
+                  height="40px"
+              /></a>
+            </li>
+          </ul>
+        </div>
+        <div class="rodape__copyright">
+          <p>&copy;2024 Todos os direitos reservados Filmio LTDA</p>
+        </div>
+      </footer>
+      <!-- FIM RODAPE -->
+    </div>
+
+    <script src="../js/hamburguerMenu.js"></script>
+  </body>
+</html>

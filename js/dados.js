@@ -1,6 +1,6 @@
 let filmes = [
   {
-    idFilme: "DunaParteDois2024",
+    idFilme: "dunapartedois2024",
     titulo: "Duna: Parte Dois (2024)",
     img: "../assets/img/DunaParteDois.jpg",
     sinopse:"A jornada de Paul Atreides continua. Ele está determinado a buscar vingança contra aqueles que destruíram sua família e seu lar. Com a ajuda de Chani e dos Fremen, ele embarca em uma jornada espiritual, mística e marcial. Se torna Muad'Dib, o líder messiânico dos Fremen, enquanto luta para evitar um futuro sombrio que ele testemunhou em visões.",
@@ -10,7 +10,7 @@ let filmes = [
     linkTrailer:"https://www.youtube.com/watch?v=QqmbrvluQRA&pp=ygUOZHVuYSAyIHRyYWlsZXI%3D",
   },
   {
-    idFilme: "HarryPotter1",
+    idFilme: "harrypotter1",
     titulo: "Harry Potter e a Pedra Filosofal (2001)",
     img: "../assets/img/harryPotterAPedraFilosofal.jpg",
     sinopse:"Harry Potter é um garoto órfão que vive infeliz com seus tios, os Dursley. Em seu aniversário de 11 anos ele recebe uma carta que mudará sua vida: um convite para ingressar em Hogwarts.",
@@ -20,7 +20,7 @@ let filmes = [
     linkTrailer:"https://www.youtube.com/watch?v=9fIObnIGMlI",
   },
   {
-    idFilme: "HarryPotter2",
+    idFilme: "harrypotter2",
     titulo: "Harry Potter e a Câmara Secreta (2002)",
     img: "../assets/img/HarryPotterEACamaraSecreta.jpg",
     sinopse:"Carros voadores, árvores que lutam e um misterioso elfo, com um aviso ainda mais misterioso. Harry Potter está pronto para dar início ao segundo ano de sua maravilhosa jornada no mundo da bruxaria. Em Hogwarts nesse ano, aranhas falam, cartas dão broncas e a habilidade de Harry para falar com cobras voltará contra ele.",
@@ -30,7 +30,7 @@ let filmes = [
     linkTrailer:"https://www.youtube.com/watch?v=cf0rRYvDuys&pp=ygUoaGFycnkgcG90dGVyIGUgYSBjYW1hcmEgc2VjcmV0YSB0cmFpbGVyIA%3D%3D",
   },
   {
-    idFilme: "HarryPotter3",
+    idFilme: "harrypotter3",
     titulo: "Harry Potter e o Prisioneiro de Azkaban (2004)",
     img: "../assets/img/HarryPotterEOPrisioneiroDeAzkaban.jpg",
     sinopse:"Quando a desprezível Tia Guida voa pelo céu na noite, Harry parte para o que será seu terceiro ano em Hogwarts. Um passeio no Nôitibus o leva para o Beco Diagonal onde ele fica sabendo que um prisioneiro foragido, Sirius Black está atrás dele. Em Hogwarts, Harry e seus amigos aprendem a delicada arte de se aproximar de um Hipogrifo, como transformar monstros em risadas e até mesmo a voltar no tempo.",
@@ -41,7 +41,7 @@ let filmes = [
   },
 
   {
-    idFilme: "HarryPotter4 ",
+    idFilme: "harrypotter4",
     titulo: "Harry Potter e o Cálice de Fogo (2005)",
     img: "../assets/img/HarryPotterEOCaliceDeFogo.jpg",
     sinopse:"Quando o nome de Harry Potter emerge do Cálice de Fogo, ele se transforma em um competidor em uma extenuante batalha de magia entre três escolas de feiticeiros – o Torneio Tribruxo. Mas se Harry não se inscreveu para o tal torneio, quem o fez? Agora, Harry precisa confrontar um mortal dragão, ferozes demônios da água e um labirinto encantado aonde se deparará com Aquele-Que-Não-Deve-Ser-Nomeado.",
@@ -51,7 +51,7 @@ let filmes = [
     linkTrailer:"https://www.youtube.com/watch?v=RwJlOdtoHRE&pp=ygUnaGFycnkgcG90dGVyIGUgbyBjYWxpY2UgZGUgZm9nbyB0cmFpbGVy",
   },
   {
-    idFilme: "HarryPotter5",
+    idFilme: "harrypotter5",
     titulo: "Harry Potter e a Ordem da Fênix (2007)",
     img: "../assets/img/HarryPotterEAOrdemDaFenix.jpg",
     sinopse:"A rebelião começa! Lord Voldemort está de volta, mas o Ministério da Magia está fazendo tudo a seu alcance para impedir que a comunidade mundial de bruxos descubra isso – incluindo indicar a oficial do Ministério, Dolores Umbridge, como a nova professora de Defesa Contra as Artes das Trevas de Hogwarts.",
@@ -61,7 +61,7 @@ let filmes = [
     linkTrailer:"https://www.youtube.com/watch?v=ZkDCaxUNV3o&pp=ygUnaGFycnkgcG90dGVyIGVhIG9yZGVtIGRhIGbDqm5peCB0cmFpbGVy",
   },
   {
-    idFilme: "HarryPotter6",
+    idFilme: "harrypotter6",
     titulo: "Harry Potter e o Enigma do Príncipe (2009)",
     img: "../assets/img/HarryPotterEOEnigmaDoPrincipe.jpg",
     sinopse:"À medida que Lorde Voldemort aperta seu cerco ao mundo dos Trouxas e dos feiticeiros. Hogwarts deixou de ser um paraiso protegido. Harry suspeita que existam perigos até mesmo dentro do castelo, mas Dumbledore está mais preocupado para a batalha final que está próximo de se iniciar.",
@@ -71,7 +71,7 @@ let filmes = [
     linkTrailer:"https://www.youtube.com/watch?v=xqfiYZ6ohnQ&pp=ygUsaGFycnkgcG90dGVyIGUgbyBlbmlnbWEgZG8gcHLDrW5jaXBlIHRyYWlsZXI%3D",
   },
   {
-    idFilme: "HarryPotter7",
+    idFilme: "harrypotter7",
     titulo: "Harry Potter e as Relíquias da Morte - Parte 1 (2010)",
     img: "../assets/img/HarryPotterEAsReliquiasDaMorteParte1.jpg",
     sinopse:"Harry, Ron e Hermione estão determinados em sua missão de descobrir e acabar com o segredo da imortalidade e do poder de destruição de Voldemort – os Horcruxes. Fugitivos e sozinhos, os três amigos devem apenas contar uns com os outros, agora mas do que nunca... Mas as Forças das Trevas no caminho ameaçam separá-los para sempre.",
@@ -81,7 +81,7 @@ let filmes = [
     linkTrailer:"https://www.youtube.com/watch?v=kmXjPbN-rYU&pp=ygU2aGFycnkgcG90dGVyIGUgYXMgcmVsw61xdWlhcyBkYSBtb3J0ZSBwYXJ0ZSAxIHRyYWlsZXIg",
   },
   {
-    idFilme: "HarryPotter8",
+    idFilme: "harrypotter8",
     titulo: "Harry Potter e as Relíquias da Morte - Parte 2 (2011)",
     img: "../assets/img/HarryPotterEAsReliquiasDaMorteParte2.jpg",
     sinopse:"No final épico, a batalha entre as forças do bem e do mal no mundo da bruxaria toma proporções de uma guerra mundial. As apostas nunca foram tão altas e ninguém está a salvo. Mas é harry que pode ser convocado para fazer um derradeiro sacrifício, à medida que ele se aproxima cada vez mais do confronto final com Lorde Voldemort. Tudo termina aqui.",
@@ -91,7 +91,7 @@ let filmes = [
     linkTrailer:"https://www.youtube.com/watch?v=E79fa8bLfPA&pp=ygU2aGFycnkgcG90dGVyIGUgYXMgcmVsw61xdWlhcyBkYSBtb3J0ZSBwYXJ0ZSAyIHRyYWlsZXIg",
   },
   {
-    idFilme: "VelozesEFuriosos3",
+    idFilme: "velozesefuriosos3",
     titulo: "Velozes e Furiosos: Desafio em Tóquio (2006)",
     img: "../assets/img/VelozesEFuriososDesafioEmToquio.jpg",
     sinopse:"Sean Boswell é um piloto de rua que desafia seu rival e bate o carro no fim da corrida. Então, Sean decide se mudar para o Japão em companhia de seu pai para evitar a prisão nos Estados Unidos, já que os rachas não são nada populares com as autoridades.",
@@ -101,7 +101,7 @@ let filmes = [
     linkTrailer:"https://www.youtube.com/watch?v=Ao8jVb2aYdA&pp=ygUcdmVsb3plcyBlIGZ1cmlvc29zIDMgdHJhaWxlcg%3D%3D",
   },
   {
-    idFilme: "PanteraNegra2",
+    idFilme: "panteranegra2",
     titulo: "Pantera Negra: Wakanda para Sempre (2022)",
     img: "../assets/img/PanteraNegraWakandaParaSempre.jpg",
     sinopse:"A rainha Ramonda, Shuri, M'Baku, Okoye e as poderosas Dora Milaje lutam para proteger sua nação após a morte do rei T'Challa. Com a ajuda da Cão de Guerra Nakia e de Everett Ross, eles tentam encontrar um novo caminho para Wakanda.",
@@ -111,7 +111,7 @@ let filmes = [
     linkTrailer:"https://www.youtube.com/watch?v=FR9iLjOubWc&pp=ygUPcGFudGVyYSBuZWdyYSAy",
   },
   {
-    idFilme: "AtividadeParanormal3",
+    idFilme: "atividadeparanormal3",
     titulo: "Atividade Paranormal 3 (2011)",
     img: "../assets/img/AtividadeParanormal3.jpg",
     sinopse:"Uma família sente que está sendo ameaçada por um espírito maligno na casa onde mora e decide instalar câmeras para filmar e tentar entender os barulhos aterrorizantes e os fenômenos estranhos que ocorrem na residência. Mas a família não está preparada para o terror que se aproxima.",
