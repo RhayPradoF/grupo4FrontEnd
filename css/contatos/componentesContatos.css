@@ -118,7 +118,8 @@
 
 .formulario__campo{
   background-color:#311228;
-  width: 600px;
+  color: #FFF;
+  width: 500px;
   padding: 20px;
   border-radius: 20px;
 
@@ -133,21 +134,29 @@
 }
 
 .formulario__campo-comentario{
-  height: 200px;
+   height: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .formulario__comentario{
+  color: #FFF;
   resize: none;
-  width: 1270px;
+  width: 1100px;
   height: 200px;
   background-color: #311228;
   border-radius: 20px;
   padding: 20px;
   
 }
+@media(max-width:1300px){
+  .formulario__campo{
+    width: 450px;
+    
+  }
+}
+
 
 @media(max-width:800px){
   .formulario__campo{
@@ -185,7 +194,7 @@
 
 }
 
-.forulario__area-card{
+.formulario__area-card{
   display: flex;
   justify-content: center;
 }

@@ -34,6 +34,16 @@
   align-items:end;
   justify-content: end;
 }
+
+@media(max-width:1040px){
+  .layout-menu {
+    margin: 0;
+    padding: 25px;
+    box-sizing: border-box;
+    display: block;
+    position: relative;
+  }
+}
 /* FIM CABEÇALHO */
 
 /*Início Sobre nós*/
