@@ -21,7 +21,7 @@ function criarFilme(id){
     sessionStorage.setItem('linkTrailer', filme.linkTrailer);
     
     
-    window.location.href = '/home/user/grupo4FrontEnd/pages/filmes.html';
+    window.location.href = '../pages/filmes.html';
 
 }
 
